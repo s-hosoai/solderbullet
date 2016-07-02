@@ -1,0 +1,36 @@
+public class AT25010B {
+	 set_write_enable_latch(){
+		spi_write_byte
+	}
+	 reset_write_enable_latch(){
+		spi_write_byte
+	}
+	 read_status_register(){
+		spi_write_byte
+		temp
+		spi_read_byte
+		jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@4c18df89
+		byte
+	}
+	 write_status_register(){
+		status
+		spi_write_byte
+		spi_write_byte
+	}
+	 read(){
+		address
+		spi_write_byte
+		spi_write_byte
+		temp
+		spi_read_byte
+		jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@69da98bf
+		byte
+	}
+	 write(){
+		address
+		value
+		spi_write_byte
+		spi_write_byte
+		spi_write_byte
+	}
+}

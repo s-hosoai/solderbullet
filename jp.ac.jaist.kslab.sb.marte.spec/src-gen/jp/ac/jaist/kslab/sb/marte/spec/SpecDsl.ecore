@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="specDsl"
+    nsURI="http://www.ac.jp/jaist/kslab/sb/marte/spec/SpecDsl" nsPrefix="specDsl">
+  <eClassifiers xsi:type="ecore:EClass" name="Model">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Datasheet" eSuperTypes="#//Model">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="revision" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imports" upperBound="-1"
+        eType="#//Import" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="components" upperBound="-1"
+        eType="#//DslComponent" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Import">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="importedNamespace" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslProtocol" eSuperTypes="#//Model">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operations" upperBound="-1"
+        eType="#//DslOperation" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslOperation">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="#//DslType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="paramType" upperBound="-1"
+        eType="#//DslType" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="paramname" unique="false"
+        upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslComponent">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pins" upperBound="-1" eType="#//DslPin"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ports" upperBound="-1"
+        eType="#//DslPort" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="packages" upperBound="-1"
+        eType="#//DslPackage" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslMcu" eSuperTypes="#//DslComponent">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="peripherals" upperBound="-1"
+        eType="#//DslPeripheral" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sfr" upperBound="-1" eType="#//DslRegister"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslDevice" eSuperTypes="#//DslComponent">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="functions" upperBound="-1"
+        eType="#//DslFunction" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="registers" upperBound="-1"
+        eType="#//DslRegister" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslPort">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pins" unique="false" upperBound="-1"
+        eType="#//DslPin"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslPin">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslRegister">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="address" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bits" upperBound="-1" eType="#//DslBit"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslBit">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslPackage">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="names" unique="false" upperBound="-1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pins" upperBound="-1" eType="#//DslPackagePin"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslPackagePin">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pinNo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="altNames" unique="false"
+        upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslPeripheral">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="compliant" unique="false"
+        upperBound="-1" eType="#//DslProtocol"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operations" upperBound="-1"
+        eType="#//DslOperationImpl" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslOperationImpl">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rettype" eType="#//DslType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="implOperation" eType="#//DslOperation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="params" upperBound="-1"
+        eType="#//DslTypedParameter" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" upperBound="-1"
+        eType="#//DslPeripheralExpression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslPeripheralExpression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DslRegisterRead" eSuperTypes="#//DslExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ref" eType="#//XBoolType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="var" eType="#//XBoolType"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslRegisterWrite" eSuperTypes="#//DslExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ref" eType="#//XBoolType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="var" eType="#//DslValue"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslValue"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DslRefVariable">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ref" eType="#//DslVariable"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslFunction">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="#//DslType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="params" upperBound="-1"
+        eType="#//DslTypedParameter" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expressions" upperBound="-1"
+        eType="#//DslExpression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslTypedParameter">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="paramType" eType="#//DslType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslCallFunction" eSuperTypes="#//DslExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variables" eType="#//XBoolType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="function" eType="#//DslOperation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="params" upperBound="-1"
+        eType="#//XConditionalExpression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslDefineVariable" eSuperTypes="#//DslExpression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="val" eType="#//XBoolType"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslReturn" eSuperTypes="#//DslExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="val" eType="#//XBoolType"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslType">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslVariable">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="var" eType="#//DslDefineVariable"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DslExpression" eSuperTypes="#//DslPeripheralExpression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="XBinaryExpression" eSuperTypes="#//DslExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="left" eType="#//DslVariable"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="op" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="right" eType="#//DslExpression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XBlockExpression" eSuperTypes="#//DslExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" eType="#//DslExpression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XPrimaryExpression" eSuperTypes="#//DslExpression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="XConditionalExpression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="XConditionalBlockExpression" eSuperTypes="#//XConditionalExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" eType="#//XConditionalExpression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XConditionalUnaryExpression" eSuperTypes="#//XConditionalExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" eType="#//XConditionalExpression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XBoolExpression" eSuperTypes="#//XConditionalExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="left" eType="#//XBoolType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="op" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="right" eType="#//XConditionalExpression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XBoolType" eSuperTypes="#//DslValue #//XConditionalExpression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="XBitAccess" eSuperTypes="#//XBoolType">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bit" eType="#//DslBit"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XRegisterAccess" eSuperTypes="#//XBoolType">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reg" eType="#//DslRegister"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XVariableAccess" eSuperTypes="#//XBoolType">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="var" eType="#//DslDefineVariable"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XParamVariableAccess" eSuperTypes="#//XBoolType">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="var" eType="#//DslTypedParameter"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XIfExpression" eSuperTypes="#//XPrimaryExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="if" eType="#//XConditionalExpression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="then" eType="#//DslExpression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="else" eType="#//DslExpression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XWhileExpression" eSuperTypes="#//XPrimaryExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predicate" eType="#//XConditionalExpression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" eType="#//DslExpression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XForExpression" eSuperTypes="#//XPrimaryExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="init" eType="#//DslExpression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predicate" eType="#//XConditionalExpression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="loop" eType="#//DslExpression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" eType="#//DslExpression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XDoWhileExpression" eSuperTypes="#//XPrimaryExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" eType="#//DslExpression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predicate" eType="#//XConditionalExpression"
+        containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>

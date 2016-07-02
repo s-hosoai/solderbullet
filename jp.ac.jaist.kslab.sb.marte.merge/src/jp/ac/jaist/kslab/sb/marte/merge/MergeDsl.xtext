@@ -1,0 +1,9 @@
+grammar jp.ac.jaist.kslab.sb.marte.merge.MergeDsl with org.eclipse.xtext.common.Terminals
+
+generate mergeDsl "http://www.ac.jp/jaist/kslab/sb/marte/merge/MergeDsl"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

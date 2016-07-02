@@ -1,0 +1,24 @@
+net {
+	N1,N2,N3,N4,N5,N6
+}
+
+component Atmega328_MLF32 {
+	PC4:N1,	// SDA
+	PC5:N2, // SCL
+	PB3:N3, // MOSI
+	PB4:N4, // MISO
+	PB5:N5, // SCK
+	PB6:N6  // CS
+}
+
+component KXP84_P2050 {
+	ADDR0:N1,	
+	SCL:N2
+}
+
+component AT25010B_DIP{
+	SO:N4,
+	SI:N3,
+	SCK:N5,
+	CS:N6
+}

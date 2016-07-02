@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_Foundations/NFPs.ecore"
+            class="MARTE.MARTE_Foundations.NFPs.NFPsPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="nfps"
+            class="MARTE.MARTE_Foundations.NFPs.util.NFPsResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_Foundations/CoreElements.ecore"
+            class="MARTE.MARTE_Foundations.CoreElements.CoreElementsPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="coreelements"
+            class="MARTE.MARTE_Foundations.CoreElements.util.CoreElementsResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_Foundations/Alloc.ecore"
+            class="MARTE.MARTE_Foundations.Alloc.AllocPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="alloc"
+            class="MARTE.MARTE_Foundations.Alloc.util.AllocResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_Foundations/Time.ecore"
+            class="MARTE.MARTE_Foundations.Time.TimePackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="time"
+            class="MARTE.MARTE_Foundations.Time.util.TimeResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_Foundations/GRM.ecore"
+            class="MARTE.MARTE_Foundations.GRM.GRMPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="grm"
+            class="MARTE.MARTE_Foundations.GRM.util.GRMResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_Annexes/RSM.ecore"
+            class="MARTE.MARTE_Annexes.RSM.RSMPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="rsm"
+            class="MARTE.MARTE_Annexes.RSM.util.RSMResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_Annexes/VSL/Variables.ecore"
+            class="MARTE.MARTE_Annexes.VSL.Variables.VariablesPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="variables"
+            class="MARTE.MARTE_Annexes.VSL.Variables.util.VariablesResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_Annexes/VSL/DataTypes.ecore"
+            class="MARTE.MARTE_Annexes.VSL.DataTypes.DataTypesPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="datatypes"
+            class="MARTE.MARTE_Annexes.VSL.DataTypes.util.DataTypesResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HLAM.ecore"
+            class="MARTE.MARTE_DesignModel.HLAM.HLAMPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hlam"
+            class="MARTE.MARTE_DesignModel.HLAM.util.HLAMResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwLogical/HwComputing.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwComputing.HwComputingPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwcomputing"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwComputing.util.HwComputingResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwLogical/HwCommunication.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwCommunication.HwCommunicationPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwcommunication"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwCommunication.util.HwCommunicationResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwLogical/HwStorage/HwStorageManager.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwStorage.HwStorageManager.HwStorageManagerPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwstoragemanager"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwStorage.HwStorageManager.util.HwStorageManagerResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwLogical/HwStorage/HwMemory.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwStorage.HwMemory.HwMemoryPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwmemory"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwStorage.HwMemory.util.HwMemoryResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwLogical/HwTiming.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwTiming.HwTimingPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwtiming"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwTiming.util.HwTimingResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwLogical/HwDevice.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwDevice.HwDevicePackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwdevice"
+            class="MARTE.MARTE_DesignModel.HRM.HwLogical.HwDevice.util.HwDeviceResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwGeneral.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwGeneral.HwGeneralPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwgeneral"
+            class="MARTE.MARTE_DesignModel.HRM.HwGeneral.util.HwGeneralResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwPhysical/HwLayout.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwPhysical.HwLayout.HwLayoutPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwlayout"
+            class="MARTE.MARTE_DesignModel.HRM.HwPhysical.HwLayout.util.HwLayoutResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwPhysical/HwPower.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwPhysical.HwPower.HwPowerPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwpower"
+            class="MARTE.MARTE_DesignModel.HRM.HwPhysical.HwPower.util.HwPowerResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwPeripheral.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwPeripheral.HwPeripheralPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwperipheral"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwPeripheral.util.HwPeripheralResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwDeviceFunction.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwDeviceFunction.HwDeviceFunctionPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwdevicefunction"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwDeviceFunction.util.HwDeviceFunctionResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwIO.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwIO.HwIOPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated MARTE_sb -->
+      <parser
+            type="hwio"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwIO.util.HwIOResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwRegister.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwRegister.HwRegisterPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwregister"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwRegister.util.HwRegisterResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwDatasheet.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwDatasheet.HwDatasheetPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwdatasheet"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwDatasheet.util.HwDatasheetResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwPackage.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwPackage.HwPackagePackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated MARTE_sb -->
+      <parser
+            type="hwpackage"
+            class="MARTE.MARTE_DesignModel.HRM.HwSpecification.HwPackage.util.HwPackageResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwProtocol.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwProtocol.HwProtocolPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwprotocol"
+            class="MARTE.MARTE_DesignModel.HRM.HwProtocol.util.HwProtocolResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/HRM/HwDiagram.ecore"
+            class="MARTE.MARTE_DesignModel.HRM.HwDiagram.HwDiagramPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="hwdiagram"
+            class="MARTE.MARTE_DesignModel.HRM.HwDiagram.util.HwDiagramResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/SRM/SW_ResourceCore.ecore"
+            class="MARTE.MARTE_DesignModel.SRM.SW_ResourceCore.SW_ResourceCorePackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="sw_resourcecore"
+            class="MARTE.MARTE_DesignModel.SRM.SW_ResourceCore.util.SW_ResourceCoreResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/SRM/SW_Concurrency.ecore"
+            class="MARTE.MARTE_DesignModel.SRM.SW_Concurrency.SW_ConcurrencyPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="sw_concurrency"
+            class="MARTE.MARTE_DesignModel.SRM.SW_Concurrency.util.SW_ConcurrencyResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/SRM/SW_Brokering.ecore"
+            class="MARTE.MARTE_DesignModel.SRM.SW_Brokering.SW_BrokeringPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="sw_brokering"
+            class="MARTE.MARTE_DesignModel.SRM.SW_Brokering.util.SW_BrokeringResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/SRM/SW_Interaction.ecore"
+            class="MARTE.MARTE_DesignModel.SRM.SW_Interaction.SW_InteractionPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="sw_interaction"
+            class="MARTE.MARTE_DesignModel.SRM.SW_Interaction.util.SW_InteractionResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_DesignModel/GCM.ecore"
+            class="MARTE.MARTE_DesignModel.GCM.GCMPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="gcm"
+            class="MARTE.MARTE_DesignModel.GCM.util.GCMResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_AnalysisModel/GQAM.ecore"
+            class="MARTE.MARTE_AnalysisModel.GQAM.GQAMPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="gqam"
+            class="MARTE.MARTE_AnalysisModel.GQAM.util.GQAMResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_AnalysisModel/SAM.ecore"
+            class="MARTE.MARTE_AnalysisModel.SAM.SAMPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="sam"
+            class="MARTE.MARTE_AnalysisModel.SAM.util.SAMResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http:///MARTE/MARTE_AnalysisModel/PAM.ecore"
+            class="MARTE.MARTE_AnalysisModel.PAM.PAMPackage"
+            genModel="model/MARTE_sb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="pam"
+            class="MARTE.MARTE_AnalysisModel.PAM.util.PAMResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated MARTE_Library -->
+      <package
+            uri="http:///MARTE_Library/MeasurementUnits.ecore"
+            class="MARTE_Library.MeasurementUnits.MeasurementUnitsPackage"
+            genModel="model/MARTE_Library.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated MARTE_Library -->
+      <package
+            uri="http:///MARTE_Library/GRM_BasicTypes.ecore"
+            class="MARTE_Library.GRM_BasicTypes.GRM_BasicTypesPackage"
+            genModel="model/MARTE_Library.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated MARTE_Library -->
+      <package
+            uri="http:///MARTE_Library/BasicNFP_Types.ecore"
+            class="MARTE_Library.BasicNFP_Types.BasicNFP_TypesPackage"
+            genModel="model/MARTE_Library.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated MARTE_Library -->
+      <package
+            uri="http:///MARTE_Library/MARTE_DataTypes.ecore"
+            class="MARTE_Library.MARTE_DataTypes.MARTE_DataTypesPackage"
+            genModel="model/MARTE_Library.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated MARTE_Library -->
+      <package
+            uri="http:///MARTE_Library/TimeTypesLibrary.ecore"
+            class="MARTE_Library.TimeTypesLibrary.TimeTypesLibraryPackage"
+            genModel="model/MARTE_Library.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated MARTE_Library -->
+      <package
+            uri="http:///MARTE_Library/TimeLibrary.ecore"
+            class="MARTE_Library.TimeLibrary.TimeLibraryPackage"
+            genModel="model/MARTE_Library.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated MARTE_Library -->
+      <package
+            uri="http:///MARTE_Library/RS_Library.ecore"
+            class="MARTE_Library.RS_Library.RS_LibraryPackage"
+            genModel="model/MARTE_Library.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated MARTE_Library -->
+      <package
+            uri="http:///MARTE_Library/MARTE_PrimitivesTypes.ecore"
+            class="MARTE_Library.MARTE_PrimitivesTypes.MARTE_PrimitivesTypesPackage"
+            genModel="model/MARTE_Library.genmodel"/>
+   </extension>
+</plugin>

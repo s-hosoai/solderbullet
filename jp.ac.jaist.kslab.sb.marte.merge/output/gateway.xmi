@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MARTE.MARTE_DesignModel.HRM.HwDiagram:SRMDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MARTE.MARTE_DesignModel.HRM.HwDiagram="http:///MARTE/MARTE_DesignModel/HRM/HwDiagram.ecore" xmlns:MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwDeviceFunction.ecore" xmlns:MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwPeripheral.ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <devices name="Atmega328">
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:OperationImpl" name="i2c_initializie" method="//@devices.0/@activities.0">
+      <ownedParameter direction="return"/>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:OperationImpl" name="i2c_read_byte" method="//@devices.0/@activities.1">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.0"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:OperationImpl" name="i2c_write_byte" method="//@devices.0/@activities.2">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.2"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:OperationImpl" name="spi_initialize" method="//@devices.0/@activities.3">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.2"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:OperationImpl" name="spi_transfer" method="//@devices.0/@activities.4">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.0"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:OperationImpl" name="spi_read_byte" method="//@devices.0/@activities.5">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.0"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:OperationImpl" name="spi_write_byte" method="//@devices.0/@activities.6">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.2"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:OperationImpl" name="spi_end" method="//@devices.0/@activities.7">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.2"/>
+      </ownedParameter>
+    </operations>
+    <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="i2c_initializie" specification="//@devices.0/@operations.0">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="i2c_read_byte" specification="//@devices.0/@operations.1">
+      <node xsi:type="uml:InputPin" name="address"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+      <node xsi:type="uml:OutputPin" name="byte"/>
+    </activities>
+    <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="i2c_write_byte" specification="//@devices.0/@operations.2">
+      <node xsi:type="uml:InputPin" name="address"/>
+      <node xsi:type="uml:InputPin" name="value"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@6835755d"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@2a6e794d"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_initialize" specification="//@devices.0/@operations.3">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_transfer" specification="//@devices.0/@operations.4">
+      <node xsi:type="uml:InputPin" name="data"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@41432ed6"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@41ad0421"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+      <node xsi:type="uml:OutputPin" name="byte"/>
+    </activities>
+    <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_read_byte" specification="//@devices.0/@operations.5">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@67d6b10c"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@7f830fa6"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+      <node xsi:type="uml:OutputPin" name="byte"/>
+    </activities>
+    <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_write_byte" specification="//@devices.0/@operations.6">
+      <node xsi:type="uml:InputPin" name="data"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@39a495a6"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_end" specification="//@devices.0/@operations.7">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+  </devices>
+  <devices name="KXP84">
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="readRegister" method="//@devices.1/@activities.0">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.0"/>
+      </ownedParameter>
+    </operations>
+    <activities name="readRegister" specification="//@devices.1/@operations.0">
+      <node xsi:type="uml:InputPin" name="address"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:Pin" name="result"/>
+      <node xsi:type="uml:CallOperationAction" name="i2c_write_byte" operation="//@devices.0/@operations.2"/>
+      <node xsi:type="uml:CallOperationAction" name="i2c_write_byte" operation="//@devices.0/@operations.2"/>
+      <node xsi:type="uml:CallOperationAction" name="i2c_read_byte" operation="//@devices.0/@operations.1"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@7e00a490"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+      <node xsi:type="uml:OutputPin" name="byte"/>
+    </activities>
+  </devices>
+  <devices name="AT25010B">
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="set_write_enable_latch" method="//@devices.2/@activities.0">
+      <ownedParameter direction="return"/>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="reset_write_enable_latch" method="//@devices.2/@activities.1">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.2"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="read_status_register" method="//@devices.2/@activities.2">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.0"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="write_status_register" method="//@devices.2/@activities.3">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.2"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="read" method="//@devices.2/@activities.4">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.0"/>
+      </ownedParameter>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="write" method="//@devices.2/@activities.5">
+      <ownedParameter direction="return">
+        <type xsi:type="uml:DataType" href="hardware.xmi#//@datatypes.2"/>
+      </ownedParameter>
+    </operations>
+    <activities name="set_write_enable_latch" specification="//@devices.2/@operations.0">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities name="reset_write_enable_latch" specification="//@devices.2/@operations.1">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities name="read_status_register" specification="//@devices.2/@operations.2">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:Pin" name="temp"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_read_byte" operation="//@devices.0/@operations.5"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@1470e83a"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+      <node xsi:type="uml:OutputPin" name="byte"/>
+    </activities>
+    <activities name="write_status_register" specification="//@devices.2/@operations.3">
+      <node xsi:type="uml:InputPin" name="status"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities name="read" specification="//@devices.2/@operations.4">
+      <node xsi:type="uml:InputPin" name="address"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:Pin" name="temp"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_read_byte" operation="//@devices.0/@operations.5"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@1fb66e87"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+      <node xsi:type="uml:OutputPin" name="byte"/>
+    </activities>
+    <activities name="write" specification="//@devices.2/@operations.5">
+      <node xsi:type="uml:InputPin" name="address"/>
+      <node xsi:type="uml:InputPin" name="value"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@devices.0/@operations.6"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+  </devices>
+</MARTE.MARTE_DesignModel.HRM.HwDiagram:SRMDiagram>

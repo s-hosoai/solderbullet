@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_ASIV8YL-EeC5T-GYIdooow" type="EcoreTools" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_FXRq0IL-EeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FYBRsIL-EeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FYBRsYL-EeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_FXRq1IL-EeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_FXRq1YL-EeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_SQtwgIMAEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_SQtwg4MAEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_SQtwhIMAEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_SQtwhYMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_SQtwhoMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_SQtwh4MAEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_SQtwiIMAEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_SQtwiYMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_SQtwioMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_SQtwi4MAEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_SQtwgYMAEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwProtocol/HwProtocol"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SQtwgoMAEeC5T-GYIdooow" x="25" y="5"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_HfONwIMJEeC5T-GYIdooow" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HgjqgIMJEeC5T-GYIdooow" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HgjqgYMJEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_HfONw4MJEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_HfONxIMJEeC5T-GYIdooow" visible="false" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_HfONxYMJEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_HfONxoMJEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_HfONx4MJEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HfONyIMJEeC5T-GYIdooow" visible="false" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_HfONyYMJEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_HfONyoMJEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_HfONy4MJEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_HfONwYMJEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Operation"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HfONwoMJEeC5T-GYIdooow" x="120" y="90"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_FXRq1oL-EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FXRq14L-EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FXRq2IL-EeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_FXRq0YL-EeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="10011046" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_FXRq0oL-EeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwProtocol"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FXRq04L-EeC5T-GYIdooow" x="1205" y="135" width="298" height="228"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_GKPY0IL-EeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GK1OsIL-EeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GK1OsYL-EeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_GKPY1IL-EeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_GKPY1YL-EeC5T-GYIdooow" type="5003">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_GKPY1oL-EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GKPY14L-EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GKPY2IL-EeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_GKPY0YL-EeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="10011046" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_GKPY0oL-EeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GKPY04L-EeC5T-GYIdooow" x="10" y="435" width="1063" height="523"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_0N3n8IL_EeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0Odd0IL_EeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Odd0YL_EeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_0N3n9IL_EeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_0N3n9YL_EeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_buCX0IMGEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_buCX04MGEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_buCX1IMGEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_buCX1YMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_buCX1oMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_buCX14MGEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_buCX2IMGEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_buCX2YMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_buCX2oMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_buCX24MGEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_buCX0YMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwDevice"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_buCX0oMGEeC5T-GYIdooow" x="125" y="10"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_dL6rEIMGEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_dL6rE4MGEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_dL6rFIMGEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_dL6rFYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_dL6rFoMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_dL6rF4MGEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dL6rGIMGEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_dL6rGYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_dL6rGoMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_dL6rG4MGEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_dL6rEYMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwPeripheral"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dL6rEoMGEeC5T-GYIdooow" x="5" y="75"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_0N3n9oL_EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0N3n94L_EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0N3n-IL_EeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_0N3n8YL_EeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13150135" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_0N3n8oL_EeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0N3n84L_EeC5T-GYIdooow" x="420" y="125" width="243" height="218"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_1WI3kIL_EeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1WvUgIL_EeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1WvUgYL_EeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_1WI3lIL_EeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_1WI3lYL_EeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_TBxyUIMGEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_TBxyU4MGEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_TBxyVIMGEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_TBxyVYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_TBxyVoMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_TBxyV4MGEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TBxyWIMGEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_TBxyWYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_TBxyWoMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_TBxyW4MGEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_TBxyUYMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing/HwComputingResource"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TBxyUoMGEeC5T-GYIdooow" x="10" y="5"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Vy85cIMGEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_Vy85c4MGEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_Vy85dIMGEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_Vy85dYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Vy85doMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Vy85d4MGEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Vy85eIMGEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_Vy85eYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Vy85eoMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Vy85e4MGEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_Vy85cYMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing/HwProcessor"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vy85coMGEeC5T-GYIdooow" x="15" y="80"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_WaI1QIMGEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_WaI1Q4MGEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_WaI1RIMGEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_WaI1RYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_WaI1RoMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_WaI1R4MGEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WaI1SIMGEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_WaI1SYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_WaI1SoMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_WaI1S4MGEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_WaI1QYMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing/HwMCU"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WaI1QoMGEeC5T-GYIdooow" x="180" y="80"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_1WI3loL_EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1WI3l4L_EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1WI3mIL_EeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_1WI3kYL_EeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13150135" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_1WI3koL_EeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1WI3k4L_EeC5T-GYIdooow" x="15" y="130" width="398" height="213"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_3K9rMIL_EeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3LkIIIL_EeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3LkIIYL_EeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_3K9rNIL_EeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_3K9rNYL_EeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_DH_d4IMAEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_DH_d44MAEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_DH_d5IMAEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_DH_d5YMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_DH_d5oMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_DH_d54MAEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DH_d6IMAEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_DH_d6YMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_DH_d6oMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_DH_d64MAEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_DH_d4YMAEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwCommunication/HwEndPoint"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DH_d4oMAEeC5T-GYIdooow" x="10"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_HEtyIIMAEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_HEtyI4MAEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_HEtyJIMAEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_HEtyJYMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_HEtyJoMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_HEtyJ4MAEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HEtyKIMAEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_HEtyKYMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_HEtyKoMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_HEtyK4MAEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_HEtyIYMAEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwCommunication/HwMedia"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HEtyIoMAEeC5T-GYIdooow" x="170" y="55"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MY6PoIMAEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_MY6Po4MAEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_MY6PpIMAEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_MY6PpYMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_MY6PpoMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_MY6Pp4MAEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_MY6PqIMAEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_MY6PqYMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_MY6PqoMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_MY6Pq4MAEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_MY6PoYMAEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwCommunication/HwPort"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MY6PooMAEeC5T-GYIdooow" x="11" y="110"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_P1lx4IMAEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_P1lx44MAEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_P1lx5IMAEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_P1lx5YMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_P1lx5oMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_P1lx54MAEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_P1lx6IMAEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_P1lx6YMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_P1lx6oMAEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_P1lx64MAEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_P1lx4YMAEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwCommunication/HwConnection"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P1lx4oMAEeC5T-GYIdooow" x="199" y="141"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_3K9rNoL_EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_3K9rN4L_EeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_3K9rOIL_EeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_3K9rMYL_EeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13150135" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_3K9rMoL_EeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwCommunication"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3K9rM4L_EeC5T-GYIdooow" x="770" y="175" width="338" height="263"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_WhjTkIMAEeC5T-GYIdooow" type="Note" fontName="MS UI Gothic" description="dummy[" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_WhjTlIMAEeC5T-GYIdooow" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_WhjTlYMAEeC5T-GYIdooow" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_WhjTkYMAEeC5T-GYIdooow"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_WhjTkoMAEeC5T-GYIdooow"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WhjTk4MAEeC5T-GYIdooow" x="1375" y="875"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_I1YFMIMFEeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I2HsEIMFEeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I2HsEYMFEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_I1YFNIMFEeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_I1YFNYMFEeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_Lj3rwIMFEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_Lj3rw4MFEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_Lj3rxIMFEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_Lj3rxYMFEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Lj3rxoMFEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Lj3rx4MFEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lj3ryIMFEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_Lj3ryYMFEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Lj3ryoMFEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Lj3ry4MFEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_Lj3rwYMFEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/HwBlockDiagram"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lj3rwoMFEeC5T-GYIdooow" x="285" y="11"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_NlNRYIMFEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_NlNRY4MFEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_NlNRZIMFEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_NlNRZYMFEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_NlNRZoMFEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_NlNRZ4MFEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NlNRaIMFEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_NlNRaYMFEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_NlNRaoMFEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_NlNRa4MFEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_NlNRYYMFEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/HwCircuitDiagram"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NlNRYoMFEeC5T-GYIdooow" x="20" y="45"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_o_Rr8IMoEeCIH8Kj2lf4sQ" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_o_Rr84MoEeCIH8Kj2lf4sQ" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_o_Rr9IMoEeCIH8Kj2lf4sQ" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_o_Rr9YMoEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_o_Rr9oMoEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_o_Rr94MoEeCIH8Kj2lf4sQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_o_Rr-IMoEeCIH8Kj2lf4sQ" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_o_Rr-YMoEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_o_Rr-oMoEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_o_Rr-4MoEeCIH8Kj2lf4sQ"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_o_Rr8YMoEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/HwHRMDiagram"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o_Rr8oMoEeCIH8Kj2lf4sQ" x="180" y="39"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_NDok0INGEeCIH8Kj2lf4sQ" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_NDok04NGEeCIH8Kj2lf4sQ" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_NDok1INGEeCIH8Kj2lf4sQ" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_NDok1YNGEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_NDok1oNGEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_NDok14NGEeCIH8Kj2lf4sQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NDok2INGEeCIH8Kj2lf4sQ" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_NDok2YNGEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_NDok2oNGEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_NDok24NGEeCIH8Kj2lf4sQ"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_NDok0YNGEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/SRMDiagram"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NDok0oNGEeCIH8Kj2lf4sQ" x="435" y="30"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_I1YFNoMFEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_I1YFN4MFEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_I1YFOIMFEeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_I1YFMYMFEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="10011046" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_I1YFMoMFEeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I1YFM4MFEeC5T-GYIdooow" x="545" y="-15" width="613" height="168"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_LGZQIIMGEeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LG_GAIMGEeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LG_GAYMGEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_LGZQJIMGEeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_LGZQJYMGEeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_On_uoIMGEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_On_uo4MGEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_On_upIMGEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_On_upYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_On_upoMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_On_up4MGEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_On_uqIMGEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_On_uqYMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_On_uqoMGEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_On_uq4MGEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_On_uoYMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwGeneral/HwResource"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_On_uooMGEeC5T-GYIdooow" x="185" y="5"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5rVf8IMwEeCIH8Kj2lf4sQ" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5undcIMwEeCIH8Kj2lf4sQ" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5undcYMwEeCIH8Kj2lf4sQ" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_5rVf84MwEeCIH8Kj2lf4sQ" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_5rVf9IMwEeCIH8Kj2lf4sQ" visible="false" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_5rVf9YMwEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_5rVf9oMwEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_5rVf94MwEeCIH8Kj2lf4sQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5rVf-IMwEeCIH8Kj2lf4sQ" visible="false" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_5rVf-YMwEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_5rVf-oMwEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_5rVf-4MwEeCIH8Kj2lf4sQ"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_5rVf8YMwEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Operation"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5rVf8oMwEeCIH8Kj2lf4sQ" x="15"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_GvvKYIMxEeCIH8Kj2lf4sQ" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GwfYUIMxEeCIH8Kj2lf4sQ" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GwfYUYMxEeCIH8Kj2lf4sQ" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_GvvKY4MxEeCIH8Kj2lf4sQ" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_GvvKZIMxEeCIH8Kj2lf4sQ" visible="false" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_GvvKZYMxEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GvvKZoMxEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GvvKZ4MxEeCIH8Kj2lf4sQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GvvKaIMxEeCIH8Kj2lf4sQ" visible="false" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_GvvKaYMxEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GvvKaoMxEeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GvvKa4MxEeCIH8Kj2lf4sQ"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_GvvKYYMxEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Activity"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GvvKYoMxEeCIH8Kj2lf4sQ" x="45" y="46"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_LGZQJoMGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_LGZQJ4MGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_LGZQKIMGEeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_LGZQIYMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13150135" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_LGZQIoMGEeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwGeneral"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGZQI4MGEeC5T-GYIdooow" x="25" y="-15" width="315" height="143"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9bbfgIMGEeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9cBVYIMGEeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9cBVYYMGEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_9bbfhIMGEeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_9bbfhYMGEeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_TL7-cIMHEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_TMFvcIMHEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_TMFvcYMHEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_TMFvcoMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_TMFvc4MHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_TMFvdIMHEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TMFvdYMHEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_TMFvdoMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_TMFvd4MHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_TMFveIMHEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_TL7-cYMHEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwDatasheet/HwDatasheet"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TL7-coMHEeC5T-GYIdooow" x="10" y="5"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_9bbfhoMGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9bbfh4MGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9bbfiIMGEeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_9bbfgYMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="10011046" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_9bbfgoMGEeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwDatasheet"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9bbfg4MGEeC5T-GYIdooow" x="20" y="490"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_98EHYIMGEeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_98zuQIMGEeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_98zuQYMGEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_98EHZIMGEeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_98EHZYMGEeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_uKsD4IMHEeC5T-GYIdooow" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uLR5yIMHEeC5T-GYIdooow" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uLR5yYMHEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_uKsD44MHEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_uKsD5IMHEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_uKsD5YMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_uKsD5oMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_uKsD54MHEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_uKsD6IMHEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_uKsD6YMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_uKsD6oMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_uKsD64MHEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_uKsD4YMHEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwDevice"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKsD4oMHEeC5T-GYIdooow" x="10" y="5"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5hB_IIMJEeC5T-GYIdooow" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5lzKYIMJEeC5T-GYIdooow" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5lzKYYMJEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_5k5ygIMJEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_5k5ygYMJEeC5T-GYIdooow" visible="false" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_5k5ygoMJEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_5k5yg4MJEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_5k5yhIMJEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5k5yhYMJEeC5T-GYIdooow" visible="false" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_5k5yhoMJEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_5k5yh4MJEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_5k5yiIMJEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_5hB_IYMJEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//CallOperationAction"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5hB_IoMJEeC5T-GYIdooow" x="200" y="145"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_98EHZoMGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_98EHZ4MGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_98EHaIMGEeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_98EHYYMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="10011046" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_98EHYoMGEeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwDeviceFunction"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_98EHY4MGEeC5T-GYIdooow" x="1170" y="560" width="353" height="253"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_-cQDUIMGEeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-c15MIMGEeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-c15MYMGEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_-cQDVIMGEeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_-cQDVYMGEeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_FqtlYIMYEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_FqtlY4MYEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_FqtlZIMYEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_FqtlZYMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_FqtlZoMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_FqtlZ4MYEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FqtlaIMYEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_FqtlaYMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_FqtlaoMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Fqtla4MYEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_FqtlYYMYEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwIO/HwPin"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FqtlYoMYEeC5T-GYIdooow" x="15" y="5"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-cQDVoMGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-cQDV4MGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-cQDWIMGEeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_-cQDUYMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="10011046" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_-cQDUoMGEeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwIO"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-cQDU4MGEeC5T-GYIdooow" x="300" y="560" width="183" height="198"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="__LyC0IMGEeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__MhpsIMGEeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__MhpsYMGEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="__LyC1IMGEeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="__LyC1YMGEeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_Jy6J0IMYEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_Jy6J04MYEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_Jy6J1IMYEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_Jy6J1YMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Jy6J1oMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Jy6J14MYEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Jy6J2IMYEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_Jy6J2YMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Jy6J2oMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Jy6J24MYEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_Jy6J0YMYEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPackage/HwPackage"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jy6J0oMYEeC5T-GYIdooow" x="10" y="5"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MOL5cIMYEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_MOL5c4MYEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_MOL5dIMYEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_MOL5dYMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_MOL5doMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_MOL5d4MYEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_MOL5eIMYEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_MOL5eYMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_MOL5eoMYEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_MOL5e4MYEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_MOL5cYMYEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPackage/HwPackagePin"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MOL5coMYEeC5T-GYIdooow" x="90" y="65"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="__LyC1oMGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__LyC14MGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__LyC2IMGEeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="__LyC0YMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="10011046" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="__LyC0oMGEeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPackage"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__LyC04MGEeC5T-GYIdooow" x="495" y="560" width="213" height="263"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="__rYI4IMGEeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__r9-wIMGEeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__r9-wYMGEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="__rYI5IMGEeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="__rYI5YMGEeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_rn9ocIMHEeC5T-GYIdooow" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rot2YIMHEeC5T-GYIdooow" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rot2YYMHEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_rn9oc4MHEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_rn9odIMHEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_rn9odYMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_rn9odoMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_rn9od4MHEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_rn9oeIMHEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_rn9oeYMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_rn9oeoMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_rn9oe4MHEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_rn9ocYMHEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwPeripheral"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rn9ocoMHEeC5T-GYIdooow" x="10" y="5"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zrGYcIMHEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_zrGYc4MHEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_zrGYdIMHEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_zrGYdYMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_zrGYdoMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_zrGYd4MHEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zrQJcIMHEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_zrQJcYMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_zrQJcoMHEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_zrQJc4MHEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_zrGYcYMHEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/OperationImpl"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zrGYcoMHEeC5T-GYIdooow" x="120" y="70"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_UNv5YIMKEeC5T-GYIdooow" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UOfgQIMKEeC5T-GYIdooow" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UOfgQYMKEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_UN5qYIMKEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_UN5qYYMKEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_UN5qYoMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_UN5qY4MKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_UN5qZIMKEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_UN5qZYMKEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_UN5qZoMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_UN5qZ4MKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_UN5qaIMKEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_UNv5YYMKEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Action"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UNv5YoMKEeC5T-GYIdooow" x="260" y="50"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Vg5jUIMKEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_Vg5jU4MKEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_Vg5jVIMKEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_Vg5jVYMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Vg5jVoMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Vg5jV4MKEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Vg5jWIMKEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_Vg5jWYMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Vg5jWoMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Vg5jW4MKEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_Vg5jUYMKEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/RegisterAction"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vg5jUoMKEeC5T-GYIdooow" x="275" y="140"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_X_JucIMKEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_X_S4YIMKEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_X_S4YYMKEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_X_S4YoMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_X_S4Y4MKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_X_S4ZIMKEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_X_S4ZYMKEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_X_S4ZoMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_X_S4Z4MKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_X_S4aIMKEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_X_JucYMKEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/WriteRegisterAction"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X_JucoMKEeC5T-GYIdooow" x="117" y="220"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZgwEEIMKEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_ZgwEE4MKEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_ZgwEFIMKEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_ZgwEFYMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ZgwEFoMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ZgwEF4MKEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ZgwEGIMKEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_ZgwEGYMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ZgwEGoMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ZgwEG4MKEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_ZgwEEYMKEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/ReadRegisterAction"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZgwEEoMKEeC5T-GYIdooow" x="270" y="220"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_9PL2cIMKEeC5T-GYIdooow" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9TgVwIMKEeC5T-GYIdooow" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9TgVwYMKEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_9Sm94IMKEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_9Sm94YMKEeC5T-GYIdooow" visible="false" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_9Sm94oMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_9Sm944MKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_9Sm95IMKEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9Sm95YMKEeC5T-GYIdooow" visible="false" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_9Sm95oMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_9Sm954MKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_9Sm96IMKEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_9PL2cYMKEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//OutputPin"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9PL2coMKEeC5T-GYIdooow" x="310" y="295"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-UxlgIMKEeC5T-GYIdooow" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-VhMaIMKEeC5T-GYIdooow" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-VhMaYMKEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_-Uxlg4MKEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_-UxlhIMKEeC5T-GYIdooow" visible="false" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_-UxlhYMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_-UxlhoMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_-Uxlh4MKEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-UxliIMKEeC5T-GYIdooow" visible="false" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_-UxliYMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_-UxlioMKEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_-Uxli4MKEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_-UxlgYMKEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//InputPin"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-UxlgoMKEeC5T-GYIdooow" x="110" y="295"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_tdVtgIM6EeCIH8Kj2lf4sQ" type="2003">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tlY2QIM6EeCIH8Kj2lf4sQ" source="Shortcut">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tlY2QYM6EeCIH8Kj2lf4sQ" key="modelID" value="EcoreTools"/>
+        </eAnnotations>
+        <children xmi:type="notation:Node" xmi:id="_thEW8IM6EeCIH8Kj2lf4sQ" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_thEW8YM6EeCIH8Kj2lf4sQ" visible="false" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_thEW8oM6EeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_thEW84M6EeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_thEW9IM6EeCIH8Kj2lf4sQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_thEW9YM6EeCIH8Kj2lf4sQ" visible="false" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_thEW9oM6EeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_thEW94M6EeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_thEW-IM6EeCIH8Kj2lf4sQ"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_tdVtgYM6EeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Activity"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tdVtgoM6EeCIH8Kj2lf4sQ" x="15" y="175"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_O6ZoQIM9EeCIH8Kj2lf4sQ" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_O6ZoQ4M9EeCIH8Kj2lf4sQ" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_O6ZoRIM9EeCIH8Kj2lf4sQ" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_O6ZoRYM9EeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_O6ZoRoM9EeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_O6ZoR4M9EeCIH8Kj2lf4sQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_O6ZoSIM9EeCIH8Kj2lf4sQ" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_O6ZoSYM9EeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_O6ZoSoM9EeCIH8Kj2lf4sQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_O6ZoS4M9EeCIH8Kj2lf4sQ"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_O6ZoQYM9EeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/PeripheralActivity"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O6ZoQoM9EeCIH8Kj2lf4sQ" x="28" y="248"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="__rYI5oMGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__rYI54MGEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__rYI6IMGEeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="__rYI4YMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="10011046" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="__rYI4oMGEeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__rYI44MGEeC5T-GYIdooow" x="715" y="560" width="448" height="403"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_AKz24IMHEeC5T-GYIdooow" type="1002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ALaT0IMHEeC5T-GYIdooow" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ALaT0YMHEeC5T-GYIdooow" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_AKz25IMHEeC5T-GYIdooow" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_AKz25YMHEeC5T-GYIdooow" type="5003">
+      <children xmi:type="notation:Node" xmi:id="_bPjn4IMNEeC5T-GYIdooow" type="2003">
+        <children xmi:type="notation:Node" xmi:id="_bPtY4IMNEeC5T-GYIdooow" type="4002"/>
+        <children xmi:type="notation:Node" xmi:id="_bPtY4YMNEeC5T-GYIdooow" type="5004">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_bPtY4oMNEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_bPtY44MNEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_bPtY5IMNEeC5T-GYIdooow"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_bPtY5YMNEeC5T-GYIdooow" type="5005">
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_bPtY5oMNEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_bPtY54MNEeC5T-GYIdooow"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_bPtY6IMNEeC5T-GYIdooow"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_bPjn4YMNEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13420443" lineColor="8421504"/>
+        <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwRegister/HwRegister"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bPjn4oMNEeC5T-GYIdooow" x="10" y="5"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_AKz25oMHEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AKz254MHEeC5T-GYIdooow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AKz26IMHEeC5T-GYIdooow"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_AKz24YMHEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="10011046" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_AKz24oMHEeC5T-GYIdooow"/>
+    <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwRegister"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AKz244MHEeC5T-GYIdooow" x="20" y="780"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_STuyAIMxEeCIH8Kj2lf4sQ" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SZGaMIMxEeCIH8Kj2lf4sQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SZGaMYMxEeCIH8Kj2lf4sQ" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_SXmlYIMxEeCIH8Kj2lf4sQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_SXmlYYMxEeCIH8Kj2lf4sQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_SXmlYoMxEeCIH8Kj2lf4sQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SXmlY4MxEeCIH8Kj2lf4sQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SXmlZIMxEeCIH8Kj2lf4sQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SXmlZYMxEeCIH8Kj2lf4sQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_SXmlZoMxEeCIH8Kj2lf4sQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SXmlZ4MxEeCIH8Kj2lf4sQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SXmlaIMxEeCIH8Kj2lf4sQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_STuyAYMxEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="MARTE_sb.ecore#//MARTE_DesignModel/SRM/SW_Brokering/DeviceBroker"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_STuyAoMxEeCIH8Kj2lf4sQ" x="1220"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ASIV8oL-EeC5T-GYIdooow"/>
+  <element xmi:type="ecore:EPackage" href="MARTE_sb.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_HGM_4IMAEeC5T-GYIdooow" type="3002" source="_DH_d4IMAEeC5T-GYIdooow" target="_HEtyIIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_HGM_5IMAEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HGM_5YMAEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_HGM_5oMAEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HGM_54MAEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_HGM_4YMAEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HGM_4oMAEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwCommunication/HwEndPoint/connectedTo"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HGM_44MAEeC5T-GYIdooow" points="[-50, -18, 11, 3]$[-60, -21, 1, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_bLkysIMAEeC5T-GYIdooow" type="3003" source="_MY6PoIMAEeC5T-GYIdooow" target="_DH_d4IMAEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_bLkysYMAEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_bLkysoMAEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bLkys4MAEeC5T-GYIdooow" points="[2, -8, -11, 90]$[-37, -103, -50, -5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bLkytIMAEeC5T-GYIdooow" id="(0.3627450980392157,0.21428571428571427)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_byBusIMAEeC5T-GYIdooow" type="3003" source="_P1lx4IMAEeC5T-GYIdooow" target="_HEtyIIMAEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_byBusYMAEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_byBusoMAEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_byBus4MAEeC5T-GYIdooow" points="[-5, -20, 24, 66]$[-22, -66, 7, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_gvH60IMAEeC5T-GYIdooow" type="3002" source="_P1lx4IMAEeC5T-GYIdooow" target="_SQtwgIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_gvH61IMAEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gvH61YMAEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_gvH61oMAEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gvH614MAEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_gvH60YMAEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gvH60oMAEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwCommunication/HwConnection/protocols"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gvH604MAEeC5T-GYIdooow" points="[21, -18, -187, 160]$[209, -194, 1, -16]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gvH62IMAEeC5T-GYIdooow" id="(0.7572815533980582,0.4523809523809524)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gvH62YMAEeC5T-GYIdooow" id="(0.23529411764705882,0.40476190476190477)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_R15qgIMFEeC5T-GYIdooow" type="3002" source="_Lj3rwIMFEeC5T-GYIdooow" target="_P1lx4IMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_R15qhIMFEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_R15qhYMFEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_R15qhoMFEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_R15qh4MFEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_R15qgYMFEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_R15qgoMFEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/HwBlockDiagram/connections"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R15qg4MFEeC5T-GYIdooow" points="[-11, -12, 209, 225]$[-219, -246, 1, -9]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R2C0cYMFEeC5T-GYIdooow" id="(0.2621359223300971,0.23809523809523808)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_XOQ2UIMFEeC5T-GYIdooow" type="3002" source="_Lj3rwIMFEeC5T-GYIdooow" target="_SQtwgIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_XOQ2VIMFEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XOQ2VYMFEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_XOQ2VoMFEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XOQ2V4MFEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_XOQ2UYMFEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XOQ2UoMFEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/HwBlockDiagram/protocols"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XOQ2U4MFEeC5T-GYIdooow" points="[2, -20, -42, 402]$[46, -430, 2, -8]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XOQ2WIMFEeC5T-GYIdooow" id="(0.6372549019607843,0.21428571428571427)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_OomLkIMGEeC5T-GYIdooow" type="3002" source="_On_uoIMGEeC5T-GYIdooow" target="_On_uoIMGEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_OomLlIMGEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OomLlYMGEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_OomLloMGEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OomLl4MGEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_OomLkYMGEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OomLkoMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwGeneral/HwResource/ownedHW"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OomLk4MGEeC5T-GYIdooow" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_OomLmIMGEeC5T-GYIdooow" type="3002" source="_On_uoIMGEeC5T-GYIdooow" target="_DH_d4IMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_OomLnIMGEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OomLnYMGEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_OomLnoMGEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OomLn4MGEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_OomLmYMGEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OomLmoMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwGeneral/HwResource/endPoints"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OomLm4MGEeC5T-GYIdooow" points="[1, 0, -595, -131]$[546, 120, -50, -11]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_TCXoMIMGEeC5T-GYIdooow" type="3003" source="_TBxyUIMGEeC5T-GYIdooow" target="_On_uoIMGEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_TCXoMYMGEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TCXoMoMGEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TCXoM4MGEeC5T-GYIdooow" points="[1, -1, -260, 163]$[229, -144, -32, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_VzZlYIMGEeC5T-GYIdooow" type="3003" source="_Vy85cIMGEeC5T-GYIdooow" target="_TBxyUIMGEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_VzZlYYMGEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VzZlYoMGEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VzZlY4MGEeC5T-GYIdooow" points="[1, 0, -84, -26]$[19, 6, -66, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_WavSMIMGEeC5T-GYIdooow" type="3002" source="_WaI1QIMGEeC5T-GYIdooow" target="_Vy85cIMGEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_WavSNIMGEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WavSNYMGEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_WavSNoMGEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WavSN4MGEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_WavSMYMGEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WavSMoMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing/HwMCU/processor"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WavSM4MGEeC5T-GYIdooow" points="[1, 1, -151, -208]$[137, 189, -15, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_WavSOIMGEeC5T-GYIdooow" type="3003" source="_WaI1QIMGEeC5T-GYIdooow" target="_TBxyUIMGEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_WavSOYMGEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WavSOoMGEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WavSO4MGEeC5T-GYIdooow" points="[1, 0, -84, -26]$[19, 6, -66, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_buo0wIMGEeC5T-GYIdooow" type="3003" source="_buCX0IMGEeC5T-GYIdooow" target="_On_uoIMGEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_buo0wYMGEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_buo0woMGEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_buo0w4MGEeC5T-GYIdooow" points="[-1, -1, 148, 363]$[-141, -344, 8, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_dMgg8IMGEeC5T-GYIdooow" type="3003" source="_dL6rEIMGEeC5T-GYIdooow" target="_buCX0IMGEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_dMgg8YMGEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_dMgg8oMGEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dMgg84MGEeC5T-GYIdooow" points="[1, 0, -50, -26]$[11, 6, -40, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_dMgg9IMGEeC5T-GYIdooow" type="3002" source="_WaI1QIMGEeC5T-GYIdooow" target="_dL6rEIMGEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_dMgg-IMGEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dMgg-YMGEeC5T-GYIdooow" x="-56" y="-11"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_dMgg-oMGEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dMgg-4MGEeC5T-GYIdooow" x="-31" y="9"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_dMgg9YMGEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_dMgg9oMGEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing/HwMCU/peripherals"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dMgg94MGEeC5T-GYIdooow" points="[20, 20, -159, -159]$[178, 178, -1, -1]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_TMibYIMHEeC5T-GYIdooow" type="3002" source="_TL7-cIMHEeC5T-GYIdooow" target="_On_uoIMGEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_TMibZIMHEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TMibZYMHEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_TMibZoMHEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TMibZ4MHEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_TMibYYMHEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TMibYoMHEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwDatasheet/HwDatasheet/components"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TMibY4MHEeC5T-GYIdooow" points="[0, -1, -256, 538]$[246, -519, -10, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_HgagkIMJEeC5T-GYIdooow" type="3002" source="_HfONwIMJEeC5T-GYIdooow" target="_HfONwIMJEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_HgaglIMJEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HgaglYMJEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_HgagloMJEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hgagl4MJEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_HgagkYMJEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HgagkoMJEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Operation/redefinedOperation"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Hgagk4MJEeC5T-GYIdooow" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KBDRUIMJEeC5T-GYIdooow" type="3002" source="_SQtwgIMAEeC5T-GYIdooow" target="_HfONwIMJEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_KBDRVIMJEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KBMbQIMJEeC5T-GYIdooow" x="-12" y="-40"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_KBMbQYMJEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KBMbQoMJEeC5T-GYIdooow" x="1" y="-17"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_KBDRUYMJEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KBDRUoMJEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwProtocol/HwProtocol/operations"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KBDRU4MJEeC5T-GYIdooow" points="[8, 13, -62, -64]$[20, 75, -50, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KBMbQ4MJEeC5T-GYIdooow" id="(0.7549019607843137,0.6904761904761905)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_R71WkIMJEeC5T-GYIdooow" type="3002" source="_rn9ocIMHEeC5T-GYIdooow" target="_SQtwgIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_R_kAAIMJEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_R_kAAYMJEeC5T-GYIdooow" x="-256" y="-38"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_R_kAAoMJEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_R_kAA4MJEeC5T-GYIdooow" x="-69" y="-5"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_R71WkYMJEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_R71WkoMJEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwPeripheral/implements"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R71Wk4MJEeC5T-GYIdooow" points="[50, -24, -455, 407]$[310, -151, -195, 280]$[491, -411, -14, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_V0PLgIMJEeC5T-GYIdooow" type="3002" source="_zrGYcIMHEeC5T-GYIdooow" target="_HfONwIMJEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_V0PLhIMJEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_V0PLhYMJEeC5T-GYIdooow" x="-61" y="-19"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_V0PLhoMJEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_V0PLh4MJEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_V0PLgYMJEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_V0PLgoMJEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/OperationImpl/override"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V0PLg4MJEeC5T-GYIdooow" points="[14, -20, -324, 403]$[288, -426, -50, -3]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_mNbngIMJEeC5T-GYIdooow" type="3002" source="_uKsD4IMHEeC5T-GYIdooow" target="_SQtwgIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_mNbnhIMJEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mNbnhYMJEeC5T-GYIdooow" x="-187" y="13"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_mNbnhoMJEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mNbnh4MJEeC5T-GYIdooow" x="-166" y="21"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_mNbngYMJEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mNbngoMJEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwDevice/compliant"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mNbng4MJEeC5T-GYIdooow" points="[3, -26, -54, 422]$[59, -451, 2, -3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mNbniIMJEeC5T-GYIdooow" id="(0.5784313725490197,0.09523809523809523)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5lqAcIMJEeC5T-GYIdooow" type="3002" source="_5hB_IIMJEeC5T-GYIdooow" target="_HfONwIMJEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_5lqAdIMJEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5lqAdYMJEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5lqAdoMJEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5lqAd4MJEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5lqAcYMJEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5lqAcoMJEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//CallOperationAction/operation"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5lqAc4MJEeC5T-GYIdooow" points="[0, -1, -206, 314]$[193, -296, -13, 19]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ow6dQIMKEeC5T-GYIdooow" type="3003" source="_zrGYcIMHEeC5T-GYIdooow" target="_HfONwIMJEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Ow6dQYMKEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ow6dQoMKEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ow6dQ4MKEeC5T-GYIdooow" points="[23, -20, -497, 421]$[470, -435, -50, 6]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_bqleYIMKEeC5T-GYIdooow" type="3003" source="_X_JucIMKEeC5T-GYIdooow" target="_Vg5jUIMKEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_bqleYYMKEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_bqleYoMKEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bqleY4MKEeC5T-GYIdooow" points="[5, -2, -97, 55]$[93, -77, -9, -20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bqleZIMKEeC5T-GYIdooow" id="(0.5259259259259259,0.07142857142857142)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_cHMh4IMKEeC5T-GYIdooow" type="3003" source="_ZgwEEIMKEeC5T-GYIdooow" target="_Vg5jUIMKEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_cHMh4YMKEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_cHMh4oMKEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cHMh44MKEeC5T-GYIdooow" points="[-7, -20, 40, 55]$[6, -68, 53, 7]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_dc37YIMKEeC5T-GYIdooow" type="3003" source="_Vg5jUIMKEeC5T-GYIdooow" target="_UNv5YIMKEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_dc37YYMKEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_dc37YoMKEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dc37Y4MKEeC5T-GYIdooow" points="[8, -20, -24, 69]$[32, -62, 0, 27]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_9TWkwIMKEeC5T-GYIdooow" visible="false" type="3002" source="_UNv5YIMKEeC5T-GYIdooow" target="_9PL2cIMKEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_9TWkxIMKEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9TWkxYMKEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_9TWkxoMKEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9TWkx4MKEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_9TWkwYMKEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9TWkwoMKEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Action/output"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9TWkw4MKEeC5T-GYIdooow" points="[-50, -12, 261, 65]$[-310, -77, 1, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-VXbYIMKEeC5T-GYIdooow" visible="false" type="3002" source="_UNv5YIMKEeC5T-GYIdooow" target="_-UxlgIMKEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_-VXbZIMKEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-VXbZYMKEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-VXbZoMKEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-VXbZ4MKEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_-VXbYYMKEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-VXbYoMKEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Action/input"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-VXbY4MKEeC5T-GYIdooow" points="[-50, -12, 261, 65]$[-310, -77, 1, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-VhMYIMKEeC5T-GYIdooow" visible="false" type="3002" source="_5hB_IIMJEeC5T-GYIdooow" target="_-UxlgIMKEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_-VhMZIMKEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-VhMZYMKEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-VhMZoMKEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-VhMZ4MKEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_-VhMYYMKEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-VhMYoMKEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//CallOperationAction/target"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-VhMY4MKEeC5T-GYIdooow" points="[-66, -16, 656, 149]$[-721, -165, 1, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ck3hsIMLEeC5T-GYIdooow" type="3002" source="_X_JucIMKEeC5T-GYIdooow" target="_-UxlgIMKEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_Ck3htIMLEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Ck3htYMLEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Ck3htoMLEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Ck3ht4MLEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Ck3hsYMLEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ck3hsoMLEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/WriteRegisterAction/value"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ck3hs4MLEeC5T-GYIdooow" points="[1, 11, 1, -59]$[1, 84, 1, 14]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ck3huIMLEeC5T-GYIdooow" id="(0.1037037037037037,0.7380952380952381)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ck3huYMLEeC5T-GYIdooow" id="(0.20588235294117646,0.65)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_E0hQIIMLEeC5T-GYIdooow" type="3002" source="_ZgwEEIMKEeC5T-GYIdooow" target="_9PL2cIMKEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_E0hQJIMLEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E0hQJYMLEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_E0hQJoMLEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E0hQJ4MLEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_E0hQIYMLEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_E0hQIoMLEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/ReadRegisterAction/result"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E0hQI4MLEeC5T-GYIdooow" points="[1, 7, -9, -56]$[11, 80, 1, 17]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E0hQKIMLEeC5T-GYIdooow" id="(0.29545454545454547,0.8333333333333334)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E0hQKYMLEeC5T-GYIdooow" id="(0.08823529411764706,0.575)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_enB6AIMNEeC5T-GYIdooow" type="3002" source="_WaI1QIMGEeC5T-GYIdooow" target="_bPjn4IMNEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_enB6BIMNEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_enB6BYMNEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_enB6BoMNEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_enB6B4MNEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_enB6AYMNEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_enB6AoMNEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing/HwMCU/sfr"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_enB6A4MNEeC5T-GYIdooow" points="[-3, 10, 146, -555]$[-150, 545, -1, -20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_enB6CIMNEeC5T-GYIdooow" id="(0.3431372549019608,0.7619047619047619)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_QOCaMIMYEeC5T-GYIdooow" type="3002" source="_Jy6J0IMYEeC5T-GYIdooow" target="_MOL5cIMYEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_QOLkIIMYEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QOLkIYMYEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_QOLkIoMYEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QOLkI4MYEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_QOCaMYMYEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QOCaMoMYEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPackage/HwPackage/pins"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QOCaM4MYEeC5T-GYIdooow" points="[28, 20, -52, -40]$[77, 40, -3, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_V7j9sIMYEeC5T-GYIdooow" type="3002" source="_WaI1QIMGEeC5T-GYIdooow" target="_Jy6J0IMYEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_V7j9tIMYEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_V7j9tYMYEeC5T-GYIdooow" x="-10" y="-31"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_V7j9toMYEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_V7j9t4MYEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_V7j9sYMYEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_V7j9soMYEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing/HwMCU/packages"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V7j9s4MYEeC5T-GYIdooow" points="[7, 10, -248, -321]$[256, 325, 1, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V7j9uIMYEeC5T-GYIdooow" id="(0.8333333333333334,0.7619047619047619)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V7j9uYMYEeC5T-GYIdooow" id="(0.28431372549019607,0.16666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ZpFYUIMYEeC5T-GYIdooow" type="3002" source="_WaI1QIMGEeC5T-GYIdooow" target="_FqtlYIMYEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_ZpFYVIMYEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpFYVYMYEeC5T-GYIdooow" x="-26" y="-23"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZpFYVoMYEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpFYV4MYEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZpFYUYMYEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZpFYUoMYEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing/HwMCU/pins"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZpFYU4MYEeC5T-GYIdooow" points="[7, 20, -113, -335]$[170, 363, 50, 8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_b1AdUIMYEeC5T-GYIdooow" type="3002" source="_FqtlYIMYEeC5T-GYIdooow" target="_MOL5cIMYEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_b1KOUIMYEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_b1KOUYMYEeC5T-GYIdooow" x="-61" y="6"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_b1KOUoMYEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_b1KOU4MYEeC5T-GYIdooow" x="-27" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_b1AdUYMYEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_b1AdUoMYEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwIO/HwPin/pkgPin"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b1AdU4MYEeC5T-GYIdooow" points="[50, 20, -177, -33]$[110, 45, -117, -8]$[220, 45, -7, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jjkrgoMYEeC5T-GYIdooow" id="(0.5,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jjkrg4MYEeC5T-GYIdooow" id="(0.0784313725490196,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_fddxwIMYEeC5T-GYIdooow" type="3002" source="_MOL5cIMYEeC5T-GYIdooow" target="_FqtlYIMYEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_fddxxIMYEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fddxxYMYEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_fddxxoMYEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fddxx4MYEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_fddxwYMYEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fddxwoMYEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPackage/HwPackagePin/refpin"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fddxw4MYEeC5T-GYIdooow" points="[-7, -8, 220, 45]$[-117, -8, 110, 45]$[-177, -33, 50, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fddxyIMYEeC5T-GYIdooow" id="(0.0784313725490196,0.3333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iSgsQIMYEeC5T-GYIdooow" id="(0.5,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_mH8FsIMYEeC5T-GYIdooow" type="3003" source="_FqtlYIMYEeC5T-GYIdooow" target="_DH_d4IMAEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_mH8FsYMYEeC5T-GYIdooow" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mH8FsoMYEeC5T-GYIdooow" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mH8Fs4MYEeC5T-GYIdooow" points="[45, -20, -391, 379]$[45, -220, -391, 179]$[466, -220, 30, 179]$[466, -370, 30, 29]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mH8FtIMYEeC5T-GYIdooow" id="(0.21568627450980393,0.2857142857142857)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_3lEq8IMYEeC5T-GYIdooow" type="3002" source="_Lj3rwIMFEeC5T-GYIdooow" target="_On_uoIMGEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_3lOb8IMYEeC5T-GYIdooow" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3lOb8YMYEeC5T-GYIdooow" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_3lOb8oMYEeC5T-GYIdooow" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3lOb84MYEeC5T-GYIdooow" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_3lEq8YMYEeC5T-GYIdooow" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3lEq8oMYEeC5T-GYIdooow" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/HwBlockDiagram/components"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3lEq84MYEeC5T-GYIdooow" points="[-10, -1, 551, 0]$[-235, -1, 326, 0]$[-530, -1, 31, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3lOb9IMYEeC5T-GYIdooow" id="(0.09821428571428571,0.09523809523809523)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3lOb9YMYEeC5T-GYIdooow" id="(0.696078431372549,0.21428571428571427)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_RUNPsYMmEeCIH8Kj2lf4sQ" type="3002" source="_WaI1QIMGEeC5T-GYIdooow" target="_MY6PoIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_RUNPtYMmEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RUNPtoMmEeCIH8Kj2lf4sQ" x="-29" y="11"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_RUNPt4MmEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RUNPuIMmEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_RUNPsoMmEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RUNPs4MmEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwComputing/HwMCU/ports"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RUNPtIMmEeCIH8Kj2lf4sQ" points="[50, 6, -536, -69]$[536, 72, -50, -3]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ltw34IMoEeCIH8Kj2lf4sQ" type="3002" source="_dL6rEIMGEeC5T-GYIdooow" target="_bPjn4IMNEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_ltw35IMoEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ltw35YMoEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ltw35oMoEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ltw354MoEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_ltw34YMoEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ltw34oMoEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwPeripheral/refsfr"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ltw344MoEeCIH8Kj2lf4sQ" points="[-10, 15, 411, -565]$[-371, 574, 50, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ltw36IMoEeCIH8Kj2lf4sQ" id="(0.7647058823529411,0.6428571428571429)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_r0BrgIMoEeCIH8Kj2lf4sQ" type="3002" source="_o_Rr8IMoEeCIH8Kj2lf4sQ" target="_On_uoIMGEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_r0BrhIMoEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r0BrhYMoEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_r0BrhoMoEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r0Brh4MoEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_r0BrgYMoEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_r0BrgoMoEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/HwHRMDiagram/components"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r0Brg4MoEeCIH8Kj2lf4sQ" points="[-18, -3, 450, 3]$[-418, -3, 50, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r0BriIMoEeCIH8Kj2lf4sQ" id="(0.17757009345794392,0.6904761904761905)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_8dA3AIMoEeCIH8Kj2lf4sQ" type="3002" source="_o_Rr8IMoEeCIH8Kj2lf4sQ" target="_HEtyIIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_8dA3BIMoEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8dA3BYMoEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_8dA3BoMoEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8dA3B4MoEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_8dA3AYMoEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8dA3AoMoEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/HwHRMDiagram/connections"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8dA3A4MoEeCIH8Kj2lf4sQ" points="[8, 8, -208, -186]$[210, 174, -6, -20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8dA3CIMoEeCIH8Kj2lf4sQ" id="(0.4672897196261682,0.8095238095238095)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-l85cIMoEeCIH8Kj2lf4sQ" type="3002" source="_o_Rr8IMoEeCIH8Kj2lf4sQ" target="_SQtwgIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_-l85dIMoEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-l85dYMoEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-l85doMoEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-l85d4MoEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_-l85cYMoEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-l85coMoEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/HwHRMDiagram/protocols"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-l85c4MoEeCIH8Kj2lf4sQ" points="[16, 4, -414, -95]$[431, 90, 1, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-l85eIMoEeCIH8Kj2lf4sQ" id="(0.8504672897196262,0.6666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-l85eYMoEeCIH8Kj2lf4sQ" id="(0.14705882352941177,0.23809523809523808)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_CLutUIMpEeCIH8Kj2lf4sQ" type="3002" source="_dL6rEIMGEeC5T-GYIdooow" target="_MY6PoIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_CLutVIMpEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CLutVYMpEeCIH8Kj2lf4sQ" x="-25" y="-20"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_CLutVoMpEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CLutV4MpEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_CLutUYMpEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CLutUoMpEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwPeripheral/refports"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CLutU4MpEeCIH8Kj2lf4sQ" points="[21, 5, -278, -67]$[300, 59, 1, -13]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CL33QIMpEeCIH8Kj2lf4sQ" id="(0.7941176470588235,0.6666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CL33QYMpEeCIH8Kj2lf4sQ" id="(0.22549019607843138,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_jDNEMIMqEeCIH8Kj2lf4sQ" type="3003" source="_MOL5cIMYEeC5T-GYIdooow" target="_DH_d4IMAEeC5T-GYIdooow">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_jDNEMYMqEeCIH8Kj2lf4sQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jDNEMoMqEeCIH8Kj2lf4sQ" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jDNEM4MqEeCIH8Kj2lf4sQ" points="[7, -23, -127, 430]$[135, -433, 1, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jDNENIMqEeCIH8Kj2lf4sQ" id="(0.8431372549019608,0.5952380952380952)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jDNENYMqEeCIH8Kj2lf4sQ" id="(0.23529411764705882,0.5238095238095238)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_am6-8IMrEeCIH8Kj2lf4sQ" type="3002" source="_MY6PoIMAEeC5T-GYIdooow" target="_FqtlYIMYEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_am6-9IMrEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_am6-9YMrEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_am6-9oMrEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_am6-94MrEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_am6-8YMrEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_am6-8oMrEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwCommunication/HwPort/pins"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_am6-84MrEeCIH8Kj2lf4sQ" points="[-11, 8, 385, -274]$[-394, 291, 2, 9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_anEv8IMrEeCIH8Kj2lf4sQ" id="(0.11764705882352941,0.7380952380952381)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_anEv8YMrEeCIH8Kj2lf4sQ" id="(0.8137254901960784,0.7857142857142857)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_IPGrYIMxEeCIH8Kj2lf4sQ" type="3002" source="_On_uoIMGEeC5T-GYIdooow" target="_5rVf8IMwEeCIH8Kj2lf4sQ">
+    <children xmi:type="notation:Node" xmi:id="_IPGrZIMxEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IPGrZYMxEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_IPGrZoMxEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IPGrZ4MxEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_IPGrYYMxEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_IPGrYoMxEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwGeneral/HwResource/operations"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IPGrY4MxEeCIH8Kj2lf4sQ" points="[-13, 1, 94, 1]$[-105, -10, 2, -10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IPGraIMxEeCIH8Kj2lf4sQ" id="(0.13725490196078433,0.14285714285714285)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IPGraYMxEeCIH8Kj2lf4sQ" id="(0.7647058823529411,0.275)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LFzLsIMxEeCIH8Kj2lf4sQ" type="3002" source="_On_uoIMGEeC5T-GYIdooow" target="_GvvKYIMxEeCIH8Kj2lf4sQ">
+    <children xmi:type="notation:Node" xmi:id="_LFzLtIMxEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LFzLtYMxEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_LFzLtoMxEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LFzLt4MxEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_LFzLsYMxEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LFzLsoMxEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwGeneral/HwResource/activities"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LFzLs4MxEeCIH8Kj2lf4sQ" points="[-13, 7, 82, -42]$[-93, 52, 2, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LFzLuIMxEeCIH8Kj2lf4sQ" id="(0.13725490196078433,0.6904761904761905)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LFzLuYMxEeCIH8Kj2lf4sQ" id="(0.5882352941176471,0.925)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_VgoL0IMxEeCIH8Kj2lf4sQ" type="3002" source="_STuyAIMxEeCIH8Kj2lf4sQ" target="_5rVf8IMwEeCIH8Kj2lf4sQ">
+    <children xmi:type="notation:Node" xmi:id="_VgoL1IMxEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VgoL1YMxEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_VgoL1oMxEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VgoL14MxEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_VgoL0YMxEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VgoL0oMxEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/SRM/SW_Brokering/DeviceBroker/operations"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VgoL04MxEeCIH8Kj2lf4sQ" points="[-25, 0, 1092, -24]$[-1115, 12, 2, -12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VgoL2IMxEeCIH8Kj2lf4sQ" id="(0.12093023255813953,0.3076923076923077)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VgoL2YMxEeCIH8Kj2lf4sQ" id="(0.8333333333333334,0.325)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_X2-YIIMxEeCIH8Kj2lf4sQ" type="3002" source="_STuyAIMxEeCIH8Kj2lf4sQ" target="_GvvKYIMxEeCIH8Kj2lf4sQ">
+    <children xmi:type="notation:Node" xmi:id="_X6_8gIMxEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_X6_8gYMxEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_X6_8goMxEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_X6_8g4MxEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_X2-YIYMxEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_X2-YIoMxEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/SRM/SW_Brokering/DeviceBroker/activities"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X2-YI4MxEeCIH8Kj2lf4sQ" points="[-10, 0, 1088, -53]$[-1096, 58, 2, 5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X6_8hIMxEeCIH8Kj2lf4sQ" id="(0.05116279069767442,0.8076923076923077)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X6_8hYMxEeCIH8Kj2lf4sQ" id="(0.5784313725490197,0.875)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ShE0AIM9EeCIH8Kj2lf4sQ" type="3003" source="_O6ZoQIM9EeCIH8Kj2lf4sQ" target="_tdVtgIM6EeCIH8Kj2lf4sQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_ShE0AYM9EeCIH8Kj2lf4sQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ShE0AoM9EeCIH8Kj2lf4sQ" fontName="MS UI Gothic"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ShE0A4M9EeCIH8Kj2lf4sQ" points="[-5, -20, 18, 54]$[-18, -93, 5, -19]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_TSPyQIM9EeCIH8Kj2lf4sQ" type="3002" source="_rn9ocIMHEeC5T-GYIdooow" target="_O6ZoQIM9EeCIH8Kj2lf4sQ">
+    <children xmi:type="notation:Node" xmi:id="_TSPyRIM9EeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TSPyRYM9EeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_TSPyRoM9EeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TSPyR4M9EeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_TSPyQYM9EeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TSPyQoM9EeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwPeripheral/peripheralActivities"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TSPyQ4M9EeCIH8Kj2lf4sQ" points="[-3, 27, 21, -206]$[-23, 217, 1, -16]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TSPySIM9EeCIH8Kj2lf4sQ" id="(0.07377049180327869,0.40476190476190477)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_WY4MAIM9EeCIH8Kj2lf4sQ" type="3002" source="_O6ZoQIM9EeCIH8Kj2lf4sQ" target="_Vg5jUIMKEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_WcAYgIM9EeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WcAYgYM9EeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_WcAYgoM9EeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WcAYg4M9EeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_WY4MAYM9EeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WY4MAoM9EeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/PeripheralActivity/registerActions"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WY4MA4M9EeCIH8Kj2lf4sQ" points="[32, -20, -158, 83]$[137, -108, -53, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Sn8ewINCEeCIH8Kj2lf4sQ" type="3002" source="_Vg5jUIMKEeC5T-GYIdooow" target="_bPjn4IMNEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_Sn8exINCEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Sn8exYNCEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Sn8exoNCEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Sn8ex4NCEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Sn8ewYNCEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Sn8ewoNCEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwSpecification/HwPeripheral/RegisterAction/register"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Sn8ew4NCEeCIH8Kj2lf4sQ" points="[-24, 2, 899, -86]$[-861, 86, 62, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Sn8eyINCEeCIH8Kj2lf4sQ" id="(0.23148148148148148,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_PpCg0INGEeCIH8Kj2lf4sQ" type="3002" source="_NDok0INGEeCIH8Kj2lf4sQ" target="_STuyAIMxEeCIH8Kj2lf4sQ">
+    <children xmi:type="notation:Node" xmi:id="_PpCg1INGEeCIH8Kj2lf4sQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PpCg1YNGEeCIH8Kj2lf4sQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_PpCg1oNGEeCIH8Kj2lf4sQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PpCg14NGEeCIH8Kj2lf4sQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_PpCg0YNGEeCIH8Kj2lf4sQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_PpCg0oNGEeCIH8Kj2lf4sQ" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwDiagram/SRMDiagram/devices"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PpCg04NGEeCIH8Kj2lf4sQ" points="[22, -6, -177, 47]$[200, -22, 1, 31]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PpCg2INGEeCIH8Kj2lf4sQ" id="(0.7843137254901961,0.8333333333333334)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PpCg2YNGEeCIH8Kj2lf4sQ" id="(0.2,0.6025641025641025)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_XA3PsYNWEeCUIbpRSaTk9g" type="3002" source="_buCX0IMGEeC5T-GYIdooow" target="_Jy6J0IMYEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_XBAZoINWEeCUIbpRSaTk9g" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XBAZoYNWEeCUIbpRSaTk9g" x="-119" y="-31"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_XBAZooNWEeCUIbpRSaTk9g" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XBAZo4NWEeCUIbpRSaTk9g" x="-23" y="-20"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_XA3PsoNWEeCUIbpRSaTk9g" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XA3Ps4NWEeCUIbpRSaTk9g" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwDevice/packages"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XA3PtINWEeCUIbpRSaTk9g" points="[-1, 20, 39, -410]$[10, 430, 50, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_faf0IINWEeCUIbpRSaTk9g" type="3002" source="_buCX0IMGEeC5T-GYIdooow" target="_FqtlYIMYEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_faf0JINWEeCUIbpRSaTk9g" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_faf0JYNWEeCUIbpRSaTk9g" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_faf0JoNWEeCUIbpRSaTk9g" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_faf0J4NWEeCUIbpRSaTk9g" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_faf0IYNWEeCUIbpRSaTk9g" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_faf0IoNWEeCUIbpRSaTk9g" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwDevice/pins"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_faf0I4NWEeCUIbpRSaTk9g" points="[-11, 20, 219, -410]$[-180, 421, 50, -9]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_okQ1AINWEeCUIbpRSaTk9g" type="3002" source="_buCX0IMGEeC5T-GYIdooow" target="_bPjn4IMNEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_okQ1BINWEeCUIbpRSaTk9g" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_okQ1BYNWEeCUIbpRSaTk9g" x="-34" y="-31"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_okQ1BoNWEeCUIbpRSaTk9g" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_okQ1B4NWEeCUIbpRSaTk9g" x="17" y="-15"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_okQ1AYNWEeCUIbpRSaTk9g" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_okQ1AoNWEeCUIbpRSaTk9g" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwDevice/registers"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_okQ1A4NWEeCUIbpRSaTk9g" points="[-15, 20, 467, -619]$[-480, 630, 2, -9]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_okQ1CINWEeCUIbpRSaTk9g" id="(0.8333333333333334,0.23809523809523808)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_zf3m8INWEeCUIbpRSaTk9g" type="3002" source="_buCX0IMGEeC5T-GYIdooow" target="_MY6PoIMAEeC5T-GYIdooow">
+    <children xmi:type="notation:Node" xmi:id="_zf3m9INWEeCUIbpRSaTk9g" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zf3m9YNWEeCUIbpRSaTk9g" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_zf3m9oNWEeCUIbpRSaTk9g" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zf3m94NWEeCUIbpRSaTk9g" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_zf3m8YNWEeCUIbpRSaTk9g" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zf3m8oNWEeCUIbpRSaTk9g" fontColor="4210752" fontName="MS UI Gothic" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="MARTE_sb.ecore#//MARTE_DesignModel/HRM/HwLogical/HwDevice/HwDevice/ports"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zf3m84NWEeCUIbpRSaTk9g" points="[28, 20, -208, -130]$[186, 150, -50, 0]"/>
+  </edges>
+</notation:Diagram>

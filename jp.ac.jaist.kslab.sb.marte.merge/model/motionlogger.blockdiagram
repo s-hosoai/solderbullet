@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blockdiagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:blockdiagram="http://blockdiagram/1.0">
+  <com xsi:type="blockdiagram:MCU" name="Atmega328">
+    <conection ref="//@com.1" name="i2c"/>
+    <conection ref="//@com.2" name="spi"/>
+  </com>
+  <com xsi:type="blockdiagram:Device" name="KXP84"/>
+  <com xsi:type="blockdiagram:Device" name="AT25010B"/>
+</blockdiagram:Diagram>

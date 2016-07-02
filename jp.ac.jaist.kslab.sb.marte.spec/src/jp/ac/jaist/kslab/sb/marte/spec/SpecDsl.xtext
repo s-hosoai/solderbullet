@@ -1,0 +1,261 @@
+grammar jp.ac.jaist.kslab.sb.marte.spec.SpecDsl with org.eclipse.xtext.common.Terminals
+
+generate specDsl "http://www.ac.jp/jaist/kslab/sb/marte/spec/SpecDsl"
+import "http://www.eclipse.org/emf/2002/Ecore"
+
+Model:
+	Datasheet|DslProtocol
+;
+
+Datasheet :
+	('revision' revision=PackageName)?
+	'datasheet' name=ID
+	'{'
+		(imports   += Import)*
+		(components+=DslComponent)*	
+	'}'
+;
+
+Import:
+	'import' importedNamespace = QualifiedNameWithWildcard
+;
+
+DslProtocol:
+	'protocol' name=QualifiedName '{'
+		operations+=DslOperation*
+	'}'
+;
+
+DslOperation:
+	(type=DslType)? name=ID'('(paramType+=DslType paramname+=ID (',' paramType+=DslType paramname+=ID)*)?')'
+;
+
+DslComponent :
+	DslMcu|DslDevice
+;
+
+DslMcu : 
+	'mcu' name=ID
+	'{'
+		'pins {' pins+=DslPin (',' pins+=DslPin)* '}'
+		ports+=DslPort*
+		peripherals+=DslPeripheral*
+		('sfrs {'
+			sfr+=DslRegister (','sfr+=DslRegister)*
+		'}')?
+		packages+=DslPackage*
+	'}'
+;
+
+DslDevice:
+	'device' name=ID '{'		
+		'pins {' pins+=DslPin (',' pins+=DslPin)* '}'
+		ports+=DslPort*
+		functions+=DslFunction*
+		packages+=DslPackage*
+		('registers' '{'
+			registers+=DslRegister (',' registers+=DslRegister)*
+		'}')?
+	'}'
+;
+
+/* common */
+DslPort :
+	'port' name=ID ('{'
+		pins+=[DslPin] (',' pins+=[DslPin])*
+	'}')?;
+
+DslPin :
+	name=PinName;
+
+ /* memory */
+DslRegister:
+	address=HEX ':' name=ID ('{'(bits+=DslBit)? (',' (bits+=DslBit)?)*'}')?
+;
+
+DslBit:
+	name=ID;
+	
+ /* Packages */
+DslPackage:
+	'package' names+=ID (','names+=ID)*
+	'{'
+		pins+=DslPackagePin (',' pins+=DslPackagePin)*
+	'}';
+
+DslPackagePin:
+	name=PinName '('pinNo=PinName')'('{'
+		altNames+=PinName (',' altNames+=PinName)*
+	'}')?;
+
+
+/* mcu specific */
+DslPeripheral :
+	'peripheral' name=ID 'implements' compliant+=[DslProtocol] '{'
+		operations+=DslOperationImpl*
+	'}';
+
+DslOperationImpl :
+	'impl' (rettype=DslType)? implOperation=[DslOperation] '('(params+=DslTypedParameter(','params+=DslTypedParameter)*)?')' '{'
+		expression+=DslPeripheralExpression*
+	'}';
+
+DslPeripheralExpression:
+	DslExpression
+;
+
+DslRegisterRead :
+	ref=XBoolType '=>' var=XBoolType;
+
+//	register=[DslRegister] "=>"(var=[DslVariable])?;
+
+DslRegisterWrite:
+	ref=XBoolType '<=' var=DslValue;
+
+DslValue:
+	HEX | BINARY | INT | XBoolType;
+
+DslRefVariable:
+	ref=[DslVariable]
+;
+
+/* Device Specific */
+
+DslFunction :
+	'function' (type=DslType)? name=ID'('(params+=DslTypedParameter (',' params+=DslTypedParameter)*)?')''{'
+		expressions+=DslExpression*
+	'}';
+DslTypedParameter:
+	paramType=DslType name=ID
+;
+//DslExpression:
+//	DslCallFunction | DslDefineVariable | DslReturn;
+
+DslCallFunction:
+	(variables=XBoolType "=")?function=[DslOperation | QualifiedName]'('(params+=XConditionalExpression (',' params+=XConditionalExpression)*)?')'
+;
+DslDefineVariable:
+	"var" name=ID ('=' val=XBoolType)?
+;
+
+DslReturn:
+	"return" val=XBoolType;
+	
+DslType :
+	type=DslCType
+;
+
+DslVariable:
+	var=[DslDefineVariable]
+;
+
+/* basics */
+Name:
+	STRING | INT | ID
+;
+
+QualifiedName:
+	ID ('.' ID)*
+;
+QualifiedNameWithWildcard:
+	QualifiedName '.*'?
+;
+
+PinName:
+	Name
+;
+
+PackageName:
+	('this'|ID) ('/' ID)*;
+	
+DslCType:
+	'int'|'char'|'byte'|'long'|'float'|'double'|'string'|'void'|'bool'
+;
+terminal HEX returns EString:
+	'0x'('A'..'F'|'0'..'9')+;
+
+terminal BINARY returns EString:
+	'0b'('0'..'1')+;
+
+
+DslExpression:
+	XPrimaryExpression | XBinaryExpression | XBlockExpression | DslCallFunction | DslDefineVariable | DslReturn | DslRegisterRead | DslRegisterWrite;
+
+XBinaryExpression:
+	left=DslVariable op=XBinaryOperator right=DslExpression 
+;
+
+XBinaryOperator:
+	'+'|'-'|'=='|'!='|'<'|'>'|'<<'|'>>'|'*'|'/'|'&'|'|';
+
+XBlockExpression:
+	'('expression=DslExpression')'
+;
+
+XPrimaryExpression:
+	XIfExpression |
+	XWhileExpression | 
+	XForExpression |
+	XDoWhileExpression
+;
+
+XConditionalExpression:
+	XConditionalUnaryExpression|
+	XConditionalBlockExpression|
+	XBoolExpression|
+	XBoolType|
+	XLiteral;
+
+XConditionalBlockExpression:
+	'('expression=XConditionalExpression')';
+
+XConditionalUnaryExpression:
+	'!'expression=XConditionalExpression;
+
+XBoolExpression:
+	left=XBoolType op=XBoolOperation right=XConditionalExpression;
+
+XBoolOperation:
+	'||'|'&&'|'=='|'!='|'>'|'<'|'>='|'<='|'&'|'|';
+
+XBoolType:
+	XBitAccess|
+	XRegisterAccess|
+	XVariableAccess|
+	XParamVariableAccess;
+
+XLiteral:
+	BINARY|HEX|INT
+;
+XBitAccess:
+	'#'bit=[DslBit|QualifiedName];
+XRegisterAccess:
+	'$'reg=[DslRegister];
+XVariableAccess:
+	var=[DslDefineVariable];
+XParamVariableAccess:
+	'~'var=[DslTypedParameter];
+
+XIfExpression:
+	'if' '(' if=XConditionalExpression ')' '{'
+		then=DslExpression
+	'}'	('else' '{' else=DslExpression '}')?
+;
+
+XWhileExpression:
+	'while' '(' predicate=XConditionalExpression ')' '{'
+		(body=DslExpression)?
+	'}'
+;
+
+XForExpression:
+	'for' '(' init=DslExpression ';' predicate=XConditionalExpression ';' loop=DslExpression ')' '{'
+		(body=DslExpression)?
+	'}'		
+;
+
+XDoWhileExpression:
+	'do' '{'
+		body=DslExpression
+	'}' 'while' '(' predicate=XConditionalExpression ')'
+;

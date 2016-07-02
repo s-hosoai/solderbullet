@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:blockdiagram="http://blockdiagram/1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="__Uy4oURYEeGoZLLv-q2CtQ" type="BlockDiagram" name="motionlogger.blockdiagram_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_AraGQERZEeGoZLLv-q2CtQ" type="2002" fontName="メイリオ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ArcigERZEeGoZLLv-q2CtQ" type="5002"/>
+    <element xmi:type="blockdiagram:MCU" href="motionlogger.blockdiagram#//@com.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AraGQURZEeGoZLLv-q2CtQ" x="190" y="120"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HEPQkERZEeGoZLLv-q2CtQ" type="2001" fontName="メイリオ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HEP3oERZEeGoZLLv-q2CtQ" type="5001"/>
+    <element xmi:type="blockdiagram:Device" href="motionlogger.blockdiagram#//@com.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HEPQkURZEeGoZLLv-q2CtQ" x="65" y="120"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_xuJxsUkXEeG8u6x42oAMoQ" type="2001" fontName="メイリオ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xuLm4EkXEeG8u6x42oAMoQ" type="5001"/>
+    <element xmi:type="blockdiagram:Device" href="motionlogger.blockdiagram#//@com.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xuJxskkXEeG8u6x42oAMoQ" x="200" y="210"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="__Uy4okRYEeGoZLLv-q2CtQ"/>
+  <element xmi:type="blockdiagram:Diagram" href="motionlogger.blockdiagram#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_JRWoYERZEeGoZLLv-q2CtQ" type="4001" source="_AraGQERZEeGoZLLv-q2CtQ" target="_HEPQkERZEeGoZLLv-q2CtQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_JRXPcERZEeGoZLLv-q2CtQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JRXPcURZEeGoZLLv-q2CtQ" x="3" y="14"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_JRWoYURZEeGoZLLv-q2CtQ" fontName="メイリオ"/>
+    <element xmi:type="blockdiagram:Connection" href="motionlogger.blockdiagram#//@com.0/@conection.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JRWoYkRZEeGoZLLv-q2CtQ" points="[0, 0, -209, -78]$[172, 72, -37, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JRa50ERZEeGoZLLv-q2CtQ" id="(1.0,0.925)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0e4M4EkXEeG8u6x42oAMoQ" type="4001" source="_AraGQERZEeGoZLLv-q2CtQ" target="_xuJxsUkXEeG8u6x42oAMoQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0e5bAEkXEeG8u6x42oAMoQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0e5bAUkXEeG8u6x42oAMoQ" x="-1" y="-14"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0e4M4UkXEeG8u6x42oAMoQ" fontName="メイリオ"/>
+    <element xmi:type="blockdiagram:Connection" href="motionlogger.blockdiagram#//@com.0/@conection.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0e4M4kkXEeG8u6x42oAMoQ" points="[0, -6, -328, 0]$[289, -6, -39, 0]"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: jp.ac.jaist.kslab.sb.marte.spec
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0
+Bundle-SymbolicName: jp.ac.jaist.kslab.sb.marte.spec; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext;bundle-version="2.1.0";visibility:=reexport,
+ org.eclipse.xtext.xbase;bundle-version="2.1.0";resolution:=optional;visibility:=reexport,
+ org.apache.log4j;bundle-version="1.2.15";visibility:=reexport,
+ org.apache.commons.logging;bundle-version="1.0.4";resolution:=optional;visibility:=reexport,
+ org.eclipse.xtext.generator;resolution:=optional,
+ org.eclipse.emf.codegen.ecore;resolution:=optional,
+ org.eclipse.emf.mwe.utils;resolution:=optional,
+ org.eclipse.emf.mwe2.launch;resolution:=optional,
+ org.eclipse.xtext.util,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.common,
+ org.antlr.runtime,
+ org.eclipse.xtext.common.types,
+ org.eclipse.xtend2.lib
+Import-Package: org.apache.log4j,
+ org.apache.commons.logging,
+ org.eclipse.xtext.xbase.lib,
+ org.eclipse.xtend2.lib
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: jp.ac.jaist.kslab.sb.marte.spec,
+ jp.ac.jaist.kslab.sb.marte.spec.services,
+ jp.ac.jaist.kslab.sb.marte.spec.specDsl,
+ jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl,
+ jp.ac.jaist.kslab.sb.marte.spec.specDsl.util,
+ jp.ac.jaist.kslab.sb.marte.spec.serializer,
+ jp.ac.jaist.kslab.sb.marte.spec.parser.antlr,
+ jp.ac.jaist.kslab.sb.marte.spec.parser.antlr.internal,
+ jp.ac.jaist.kslab.sb.marte.spec.validation,
+ jp.ac.jaist.kslab.sb.marte.spec.scoping,
+ jp.ac.jaist.kslab.sb.marte.spec.generator,
+ jp.ac.jaist.kslab.sb.marte.spec.formatting,
+ jp.ac.jaist.kslab.sb.marte.spec.jvmmodel
+

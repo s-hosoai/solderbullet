@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MARTE.MARTE_DesignModel.HRM.HwDiagram:HwHRMDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MARTE.MARTE_DesignModel.HRM.HwDiagram="http:///MARTE/MARTE_DesignModel/HRM/HwDiagram.ecore" xmlns:MARTE.MARTE_DesignModel.HRM.HwLogical.HwCommunication="http:///MARTE/MARTE_DesignModel/HRM/HwLogical/HwCommunication.ecore" xmlns:MARTE.MARTE_DesignModel.HRM.HwLogical.HwComputing="http:///MARTE/MARTE_DesignModel/HRM/HwLogical/HwComputing.ecore" xmlns:MARTE.MARTE_DesignModel.HRM.HwLogical.HwDevice="http:///MARTE/MARTE_DesignModel/HRM/HwLogical/HwDevice.ecore" xmlns:MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwDeviceFunction.ecore" xmlns:MARTE.MARTE_DesignModel.HRM.HwSpesification.HwIO="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwIO.ecore" xmlns:MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPackage="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwPackage.ecore" xmlns:MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral="http:///MARTE/MARTE_DesignModel/HRM/HwSpecification/HwPeripheral.ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <components xsi:type="MARTE.MARTE_DesignModel.HRM.HwLogical.HwComputing:HwMCU" name="Atmega328">
+    <peripherals name="i2c">
+      <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="i2c_initializie" specification="//@components.0/@peripherals.0/@operationimpls.0">
+        <node xsi:type="uml:InitialNode"/>
+        <node xsi:type="uml:ActivityFinalNode"/>
+      </activities>
+      <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="i2c_read_byte" specification="//@components.0/@peripherals.0/@operationimpls.1">
+        <node xsi:type="uml:InputPin" name="address"/>
+        <node xsi:type="uml:InitialNode"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="uml:ActivityFinalNode"/>
+        <node xsi:type="uml:OutputPin" name="byte"/>
+      </activities>
+      <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="i2c_write_byte" specification="//@components.0/@peripherals.0/@operationimpls.2">
+        <node xsi:type="uml:InputPin" name="address"/>
+        <node xsi:type="uml:InputPin" name="value"/>
+        <node xsi:type="uml:InitialNode"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@6835755d"/>
+        <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@2a6e794d"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="uml:ActivityFinalNode"/>
+      </activities>
+      <operationimpls name="i2c_initializie" method="//@components.0/@peripherals.0/@activities.0">
+        <ownedParameter direction="return"/>
+      </operationimpls>
+      <operationimpls name="i2c_read_byte" method="//@components.0/@peripherals.0/@activities.1">
+        <ownedParameter type="//@datatypes.0" direction="return"/>
+      </operationimpls>
+      <operationimpls name="i2c_write_byte" method="//@components.0/@peripherals.0/@activities.2">
+        <ownedParameter type="//@datatypes.2" direction="return"/>
+      </operationimpls>
+    </peripherals>
+    <peripherals name="spi">
+      <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_initialize" specification="//@components.0/@peripherals.1/@operationimpls.0">
+        <node xsi:type="uml:InitialNode"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="uml:ActivityFinalNode"/>
+      </activities>
+      <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_transfer" specification="//@components.0/@peripherals.1/@operationimpls.1">
+        <node xsi:type="uml:InputPin" name="data"/>
+        <node xsi:type="uml:InitialNode"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@41432ed6"/>
+        <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@41ad0421"/>
+        <node xsi:type="uml:ActivityFinalNode"/>
+        <node xsi:type="uml:OutputPin" name="byte"/>
+      </activities>
+      <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_read_byte" specification="//@components.0/@peripherals.1/@operationimpls.2">
+        <node xsi:type="uml:InitialNode"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@67d6b10c"/>
+        <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@7f830fa6"/>
+        <node xsi:type="uml:ActivityFinalNode"/>
+        <node xsi:type="uml:OutputPin" name="byte"/>
+      </activities>
+      <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_write_byte" specification="//@components.0/@peripherals.1/@operationimpls.3">
+        <node xsi:type="uml:InputPin" name="data"/>
+        <node xsi:type="uml:InitialNode"/>
+        <node xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:WriteRegisterAction"/>
+        <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.XWhileExpressionImpl@39a495a6"/>
+        <node xsi:type="uml:ActivityFinalNode"/>
+      </activities>
+      <activities xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPeripheral:PeripheralActivity" name="spi_end" specification="//@components.0/@peripherals.1/@operationimpls.4">
+        <node xsi:type="uml:InitialNode"/>
+        <node xsi:type="uml:ActivityFinalNode"/>
+      </activities>
+      <operationimpls name="spi_initialize" method="//@components.0/@peripherals.1/@activities.0">
+        <ownedParameter type="//@datatypes.2" direction="return"/>
+      </operationimpls>
+      <operationimpls name="spi_transfer" method="//@components.0/@peripherals.1/@activities.1">
+        <ownedParameter type="//@datatypes.0" direction="return"/>
+      </operationimpls>
+      <operationimpls name="spi_read_byte" method="//@components.0/@peripherals.1/@activities.2">
+        <ownedParameter type="//@datatypes.0" direction="return"/>
+      </operationimpls>
+      <operationimpls name="spi_write_byte" method="//@components.0/@peripherals.1/@activities.3">
+        <ownedParameter type="//@datatypes.2" direction="return"/>
+      </operationimpls>
+      <operationimpls name="spi_end" method="//@components.0/@peripherals.1/@activities.4">
+        <ownedParameter type="//@datatypes.2" direction="return"/>
+      </operationimpls>
+    </peripherals>
+    <sfr name="UDR0" address="0xC6"/>
+    <sfr name="UBRR0H" address="0xC5"/>
+    <sfr name="UBRR0L" address="0xC4"/>
+    <sfr name="UCSR0C" address="0xC2"/>
+    <sfr name="UCSR0B" address="0xC1"/>
+    <sfr name="UCSR0A" address="0xC0"/>
+    <sfr name="TWAMR" address="0xBD"/>
+    <sfr name="TWCR" address="0xBC"/>
+    <sfr name="TWDR" address="0xBB"/>
+    <sfr name="TWAR" address="0xBA"/>
+    <sfr name="TWSR" address="0xB9"/>
+    <sfr name="TWBR" address="0xB8"/>
+    <sfr name="ASSR" address="0xB6"/>
+    <sfr name="OCR2B" address="0xB4"/>
+    <sfr name="OCR2A" address="0xB3"/>
+    <sfr name="TCNT2" address="0xB2"/>
+    <sfr name="TCCR2B" address="0xB1"/>
+    <sfr name="TCCR2A" address="0xB0"/>
+    <sfr name="OCR1BH" address="0x8B"/>
+    <sfr name="OCR1BL" address="0x8A"/>
+    <sfr name="OCR1AH" address="0x89"/>
+    <sfr name="OCR1AL" address="0x88"/>
+    <sfr name="ICR1H" address="0x87"/>
+    <sfr name="ICR1L" address="0x86"/>
+    <sfr name="TCNT1H" address="0x85"/>
+    <sfr name="TCNT1L" address="0x84"/>
+    <sfr name="TCCR1C" address="0x82"/>
+    <sfr name="TCCR1B" address="0x81"/>
+    <sfr name="TCCR1A" address="0x80"/>
+    <sfr name="DIDR1" address="0x7F"/>
+    <sfr name="DIDR0" address="0x7E"/>
+    <sfr name="ADMUX" address="0x7C"/>
+    <sfr name="ADCSRB" address="0x7B"/>
+    <sfr name="ADCSRA" address="0x7A"/>
+    <sfr name="ADCH" address="0x79"/>
+    <sfr name="ADCL" address="0x78"/>
+    <sfr name="TIMSK2" address="0x70"/>
+    <sfr name="TIMSK1" address="0x6F"/>
+    <sfr name="TIMSK0" address="0x6E"/>
+    <sfr name="PCMSK2" address="0x6D"/>
+    <sfr name="PCMSK1" address="0x6C"/>
+    <sfr name="PCMSK0" address="0x6B"/>
+    <sfr name="EICRA" address="0x69"/>
+    <sfr name="PCICR" address="0x68"/>
+    <sfr name="OSCCAL" address="0x66"/>
+    <sfr name="PRR" address="0x64"/>
+    <sfr name="CLKPR" address="0x61"/>
+    <sfr name="WDTCSR" address="0x60"/>
+    <sfr name="SREG" address="0x3F"/>
+    <sfr name="SPH" address="0x3E"/>
+    <sfr name="SPL" address="0x3D"/>
+    <sfr name="SPMCSR" address="0x37"/>
+    <sfr name="MCUCR" address="0x35"/>
+    <sfr name="MCUSR" address="0x34"/>
+    <sfr name="SMCR" address="0x33"/>
+    <sfr name="ACSR" address="0x30"/>
+    <sfr name="SPDR" address="0x2E"/>
+    <sfr name="SPSR" address="0x2D"/>
+    <sfr name="SPCR" address="0x2C"/>
+    <sfr name="GPIOR2" address="0x2B"/>
+    <sfr name="GPIOR1" address="0x2A"/>
+    <sfr name="OCR0B" address="0x28"/>
+    <sfr name="OCR0A" address="0x27"/>
+    <sfr name="TCNT0" address="0x26"/>
+    <sfr name="TCCR0B" address="0x25"/>
+    <sfr name="TCCR0A" address="0x24"/>
+    <sfr name="GTCCR" address="0x23"/>
+    <sfr name="EEARH" address="0x22"/>
+    <sfr name="EEARL" address="0x21"/>
+    <sfr name="EEDR" address="0x20"/>
+    <sfr name="EECR" address="0x1F"/>
+    <sfr name="GPIOR0" address="0x1E"/>
+    <sfr name="EIMSK" address="0x1D"/>
+    <sfr name="EIFR" address="0x1C"/>
+    <sfr name="PCIFR" address="0x1B"/>
+    <sfr name="TIFR2" address="0x17"/>
+    <sfr name="TIFR1" address="0x16"/>
+    <sfr name="TIFR0" address="0x15"/>
+    <sfr name="PORTD" address="0x0B"/>
+    <sfr name="DDRD" address="0x0A"/>
+    <sfr name="PIND" address="0x09"/>
+    <sfr name="PORTC" address="0x08"/>
+    <sfr name="DDRC" address="0x07"/>
+    <sfr name="PINC" address="0x06"/>
+    <sfr name="PORTB" address="0x05"/>
+    <sfr name="DDRB" address="0x04"/>
+    <sfr name="PINB" address="0x03"/>
+    <packages packageType="MLF32" name="MLF32">
+      <pins name="PD3" refpin="//@components.0/@pins.16 //@components.0/@pins.24 //@components.0/@pins.50 //@components.0/@pins.66" pinNo="1">
+        <altNames>PCINT19</altNames>
+        <altNames>OC2B</altNames>
+        <altNames>INT1</altNames>
+      </pins>
+      <pins name="PD4" refpin="//@components.0/@pins.52 //@components.0/@pins.67 //@components.0/@pins.77 //@components.0/@pins.83" pinNo="2">
+        <altNames>PCINT20</altNames>
+        <altNames>XCK</altNames>
+        <altNames>T0</altNames>
+      </pins>
+      <pins name="GND" refpin="//@components.0/@pins.13" pinNo="3"/>
+      <pins name="VCC" refpin="//@components.0/@pins.82" pinNo="4"/>
+      <pins name="GND" pinNo="5"/>
+      <pins name="VCC" pinNo="6"/>
+      <pins name="PB6" refpin="//@components.0/@pins.31 //@components.0/@pins.59 //@components.0/@pins.79 //@components.0/@pins.84" wire="//@connections.7" pinNo="7">
+        <altNames>PCINT6</altNames>
+        <altNames>XTAL1</altNames>
+        <altNames>TOSC1</altNames>
+      </pins>
+      <pins name="PB7" refpin="//@components.0/@pins.32 //@components.0/@pins.60 //@components.0/@pins.80 //@components.0/@pins.85" pinNo="8">
+        <altNames>PCINT7</altNames>
+        <altNames>XTAL2</altNames>
+        <altNames>TOSC2</altNames>
+      </pins>
+      <pins name="PD5" refpin="//@components.0/@pins.20 //@components.0/@pins.53 //@components.0/@pins.68 //@components.0/@pins.78" pinNo="9">
+        <altNames>PCINT21</altNames>
+        <altNames>OC0B</altNames>
+        <altNames>T1</altNames>
+      </pins>
+      <pins name="PD6" refpin="//@components.0/@pins.8 //@components.0/@pins.19 //@components.0/@pins.54 //@components.0/@pins.69" pinNo="10">
+        <altNames>PCINT22</altNames>
+        <altNames>OC0A</altNames>
+        <altNames>AIN0</altNames>
+      </pins>
+      <pins name="PD7" refpin="//@components.0/@pins.9 //@components.0/@pins.55 //@components.0/@pins.70" pinNo="11">
+        <altNames>PCINT23</altNames>
+        <altNames>AIN1</altNames>
+      </pins>
+      <pins name="PB0" refpin="//@components.0/@pins.12 //@components.0/@pins.14 //@components.0/@pins.25 //@components.0/@pins.40" pinNo="12">
+        <altNames>PCINT0</altNames>
+        <altNames>CLKO</altNames>
+        <altNames>ICP1</altNames>
+      </pins>
+      <pins name="PB1" refpin="//@components.0/@pins.21 //@components.0/@pins.26 //@components.0/@pins.41" pinNo="13">
+        <altNames>PCINT1</altNames>
+        <altNames>OC1A</altNames>
+      </pins>
+      <pins name="PB2" refpin="//@components.0/@pins.22 //@components.0/@pins.27 //@components.0/@pins.51 //@components.0/@pins.76" pinNo="14">
+        <altNames>PCINT2</altNames>
+        <altNames>SS</altNames>
+        <altNames>OC1B</altNames>
+      </pins>
+      <pins name="PB3" refpin="//@components.0/@pins.18 //@components.0/@pins.23 //@components.0/@pins.28 //@components.0/@pins.56" wire="//@connections.4" pinNo="15">
+        <altNames>PCINT3</altNames>
+        <altNames>OC2A</altNames>
+        <altNames>MOSI</altNames>
+      </pins>
+      <pins name="PB4" refpin="//@components.0/@pins.17 //@components.0/@pins.29 //@components.0/@pins.57" wire="//@connections.5" pinNo="16">
+        <altNames>PCINT4</altNames>
+        <altNames>MISO</altNames>
+      </pins>
+      <pins name="PB5" refpin="//@components.0/@pins.30 //@components.0/@pins.58 //@components.0/@pins.73" wire="//@connections.6" pinNo="17">
+        <altNames>SCK</altNames>
+        <altNames>PCINT5</altNames>
+      </pins>
+      <pins name="AVCC" refpin="//@components.0/@pins.11" pinNo="18"/>
+      <pins name="ADC6" refpin="//@components.0/@pins.6" pinNo="19"/>
+      <pins name="AREF" refpin="//@components.0/@pins.10" pinNo="20"/>
+      <pins name="GND" pinNo="21"/>
+      <pins name="ADC7" refpin="//@components.0/@pins.7" pinNo="22"/>
+      <pins name="PC0" refpin="//@components.0/@pins.0 //@components.0/@pins.33 //@components.0/@pins.61" pinNo="23">
+        <altNames>ADC0</altNames>
+        <altNames>PCINT8</altNames>
+      </pins>
+      <pins name="PC1" refpin="//@components.0/@pins.1 //@components.0/@pins.34 //@components.0/@pins.62" pinNo="24">
+        <altNames>ADC1</altNames>
+        <altNames>PCINT9</altNames>
+      </pins>
+      <pins name="PC2" refpin="//@components.0/@pins.2 //@components.0/@pins.35 //@components.0/@pins.42" pinNo="25">
+        <altNames>ADC2</altNames>
+        <altNames>PCINT10</altNames>
+      </pins>
+      <pins name="PC3" refpin="//@components.0/@pins.3 //@components.0/@pins.36 //@components.0/@pins.43" pinNo="26">
+        <altNames>ADC3</altNames>
+        <altNames>PCINT11</altNames>
+      </pins>
+      <pins name="PC4" refpin="//@components.0/@pins.4 //@components.0/@pins.37 //@components.0/@pins.44 //@components.0/@pins.75" wire="//@connections.2" pinNo="27">
+        <altNames>ADC4</altNames>
+        <altNames>SDA</altNames>
+        <altNames>PCINT12</altNames>
+      </pins>
+      <pins name="PC5" refpin="//@components.0/@pins.5 //@components.0/@pins.38 //@components.0/@pins.45 //@components.0/@pins.74" wire="//@connections.3" pinNo="28">
+        <altNames>ADC5</altNames>
+        <altNames>SCL</altNames>
+        <altNames>PCINT13</altNames>
+      </pins>
+      <pins name="PC6" refpin="//@components.0/@pins.39 //@components.0/@pins.46 //@components.0/@pins.71" pinNo="29">
+        <altNames>RESET</altNames>
+        <altNames>PCINT14</altNames>
+      </pins>
+      <pins name="PD0" refpin="//@components.0/@pins.47 //@components.0/@pins.63 //@components.0/@pins.72" pinNo="30">
+        <altNames>RXD</altNames>
+        <altNames>PCINT16</altNames>
+      </pins>
+      <pins name="PD1" refpin="//@components.0/@pins.48 //@components.0/@pins.64 //@components.0/@pins.81" pinNo="31">
+        <altNames>TXD</altNames>
+        <altNames>PCINT17</altNames>
+      </pins>
+      <pins name="PD2" refpin="//@components.0/@pins.15 //@components.0/@pins.49 //@components.0/@pins.65" pinNo="32">
+        <altNames>INT0</altNames>
+        <altNames>PCINT18</altNames>
+      </pins>
+    </packages>
+    <packages packageType="TQFP32" name="TQFP32">
+      <pins name="PD3" pinNo="1">
+        <altNames>PCINT19</altNames>
+        <altNames>OC2B</altNames>
+        <altNames>INT1</altNames>
+      </pins>
+      <pins name="PD4" pinNo="2">
+        <altNames>PCINT20</altNames>
+        <altNames>XCK</altNames>
+        <altNames>T0</altNames>
+      </pins>
+      <pins name="GND" pinNo="3"/>
+      <pins name="VCC" pinNo="4"/>
+      <pins name="GND" pinNo="5"/>
+      <pins name="VCC" pinNo="6"/>
+      <pins name="PB6" pinNo="7">
+        <altNames>PCINT6</altNames>
+        <altNames>XTAL1</altNames>
+        <altNames>TOSC1</altNames>
+      </pins>
+      <pins name="PB7" pinNo="8">
+        <altNames>PCINT7</altNames>
+        <altNames>XTAL2</altNames>
+        <altNames>TOSC2</altNames>
+      </pins>
+      <pins name="PD5" pinNo="9">
+        <altNames>PCINT21</altNames>
+        <altNames>OC0B</altNames>
+        <altNames>T1</altNames>
+      </pins>
+      <pins name="PD6" pinNo="10">
+        <altNames>PCINT22</altNames>
+        <altNames>OC0A</altNames>
+        <altNames>AIN0</altNames>
+      </pins>
+      <pins name="PD7" pinNo="11">
+        <altNames>PCINT23</altNames>
+        <altNames>AIN1</altNames>
+      </pins>
+      <pins name="PB0" pinNo="12">
+        <altNames>PCINT0</altNames>
+        <altNames>CLKO</altNames>
+        <altNames>ICP1</altNames>
+      </pins>
+      <pins name="PB1" pinNo="13">
+        <altNames>PCINT1</altNames>
+        <altNames>OC1A</altNames>
+      </pins>
+      <pins name="PB2" pinNo="14">
+        <altNames>PCINT2</altNames>
+        <altNames>SS</altNames>
+        <altNames>OC1B</altNames>
+      </pins>
+      <pins name="PB3" pinNo="15">
+        <altNames>PCINT3</altNames>
+        <altNames>OC2A</altNames>
+        <altNames>MOSI</altNames>
+      </pins>
+      <pins name="PB4" pinNo="16">
+        <altNames>PCINT4</altNames>
+        <altNames>MISO</altNames>
+      </pins>
+      <pins name="PB5" pinNo="17">
+        <altNames>SCK</altNames>
+        <altNames>PCINT5</altNames>
+      </pins>
+      <pins name="AVCC" pinNo="18"/>
+      <pins name="ADC6" pinNo="19"/>
+      <pins name="AREF" pinNo="20"/>
+      <pins name="GND" pinNo="21"/>
+      <pins name="ADC7" pinNo="22"/>
+      <pins name="PC0" pinNo="23">
+        <altNames>ADC0</altNames>
+        <altNames>PCINT8</altNames>
+      </pins>
+      <pins name="PC1" pinNo="24">
+        <altNames>ADC1</altNames>
+        <altNames>PCINT9</altNames>
+      </pins>
+      <pins name="PC2" pinNo="25">
+        <altNames>ADC2</altNames>
+        <altNames>PCINT10</altNames>
+      </pins>
+      <pins name="PC3" pinNo="26">
+        <altNames>ADC3</altNames>
+        <altNames>PCINT11</altNames>
+      </pins>
+      <pins name="PC4" pinNo="27">
+        <altNames>ADC4</altNames>
+        <altNames>SDA</altNames>
+        <altNames>PCINT12</altNames>
+      </pins>
+      <pins name="PC5" pinNo="28">
+        <altNames>ADC5</altNames>
+        <altNames>SCL</altNames>
+        <altNames>PCINT13</altNames>
+      </pins>
+      <pins name="PC6" pinNo="29">
+        <altNames>RESET</altNames>
+        <altNames>PCINT14</altNames>
+      </pins>
+      <pins name="PD0" pinNo="30">
+        <altNames>RXD</altNames>
+        <altNames>PCINT16</altNames>
+      </pins>
+      <pins name="PD1" pinNo="31">
+        <altNames>TXD</altNames>
+        <altNames>PCINT17</altNames>
+      </pins>
+      <pins name="PD2" pinNo="32">
+        <altNames>INT0</altNames>
+        <altNames>PCINT18</altNames>
+      </pins>
+    </packages>
+    <packages packageType="DIP" name="DIP">
+      <pins name="PC6" pinNo="1">
+        <altNames>PCINT14</altNames>
+        <altNames>RESET</altNames>
+      </pins>
+      <pins name="PD0" pinNo="2">
+        <altNames>PCINT16</altNames>
+        <altNames>RXD</altNames>
+      </pins>
+      <pins name="PD1" pinNo="3">
+        <altNames>PCINT17</altNames>
+        <altNames>TXD</altNames>
+      </pins>
+      <pins name="PD2" pinNo="4">
+        <altNames>PCINT18</altNames>
+        <altNames>INT0</altNames>
+      </pins>
+      <pins name="PD3" pinNo="5">
+        <altNames>PCINT19</altNames>
+        <altNames>OC2B</altNames>
+        <altNames>INT1</altNames>
+      </pins>
+      <pins name="PD4" pinNo="6">
+        <altNames>PCINT20</altNames>
+        <altNames>XCK</altNames>
+        <altNames>T0</altNames>
+      </pins>
+      <pins name="VCC" pinNo="7"/>
+      <pins name="GND" pinNo="8"/>
+      <pins name="PB6" pinNo="9">
+        <altNames>PCINT6</altNames>
+        <altNames>XTAL1</altNames>
+        <altNames>TOSC1</altNames>
+      </pins>
+      <pins name="PB7" pinNo="10">
+        <altNames>PCINT7</altNames>
+        <altNames>XTAL2</altNames>
+        <altNames>TOSC2</altNames>
+      </pins>
+      <pins name="PD5" pinNo="11">
+        <altNames>PCINT21</altNames>
+        <altNames>OC0B</altNames>
+        <altNames>T1</altNames>
+      </pins>
+      <pins name="PD6" pinNo="12">
+        <altNames>PCINT22</altNames>
+        <altNames>OC0A</altNames>
+        <altNames>AIN0</altNames>
+      </pins>
+      <pins name="PD7" pinNo="13">
+        <altNames>PCINT23</altNames>
+        <altNames>AIN1</altNames>
+      </pins>
+      <pins name="PB0" pinNo="14">
+        <altNames>PCINT0</altNames>
+        <altNames>CLKO</altNames>
+        <altNames>ICP1</altNames>
+      </pins>
+      <pins name="PB1" pinNo="15">
+        <altNames>OC1A</altNames>
+        <altNames>PCINT1</altNames>
+      </pins>
+      <pins name="PB2" pinNo="16">
+        <altNames>SS</altNames>
+        <altNames>OC1B</altNames>
+        <altNames>PCINT2</altNames>
+      </pins>
+      <pins name="PB3" pinNo="17">
+        <altNames>MOSI</altNames>
+        <altNames>OC2A</altNames>
+        <altNames>PCINT3</altNames>
+      </pins>
+      <pins name="PB4" pinNo="18">
+        <altNames>MISO</altNames>
+        <altNames>PCINT4</altNames>
+      </pins>
+      <pins name="PB5" pinNo="19">
+        <altNames>SCK</altNames>
+        <altNames>PCINT5</altNames>
+      </pins>
+      <pins name="AVCC" pinNo="20"/>
+      <pins name="AREF" pinNo="21"/>
+      <pins name="GND" pinNo="22"/>
+      <pins name="PC0" pinNo="23">
+        <altNames>ADC0</altNames>
+        <altNames>PCINT8</altNames>
+      </pins>
+      <pins name="PC1" pinNo="24">
+        <altNames>ADC1</altNames>
+        <altNames>PCINT9</altNames>
+      </pins>
+      <pins name="PC2" pinNo="25">
+        <altNames>ADC2</altNames>
+        <altNames>PCINT10</altNames>
+      </pins>
+      <pins name="PC3" pinNo="26">
+        <altNames>ADC3</altNames>
+        <altNames>PCINT11</altNames>
+      </pins>
+      <pins name="PC4" pinNo="27">
+        <altNames>ADC4</altNames>
+        <altNames>SDA</altNames>
+        <altNames>PCINT12</altNames>
+      </pins>
+      <pins name="PC5" pinNo="28">
+        <altNames>ADC5</altNames>
+        <altNames>SCL</altNames>
+        <altNames>PCINT13</altNames>
+      </pins>
+    </packages>
+    <packages packageType="MLF28" name="MLF28">
+      <pins name="PD3" pinNo="1">
+        <altNames>PCINT19</altNames>
+        <altNames>OC2B</altNames>
+        <altNames>INT1</altNames>
+      </pins>
+      <pins name="PD4" pinNo="2">
+        <altNames>PCINT20</altNames>
+        <altNames>XCK</altNames>
+        <altNames>T0</altNames>
+      </pins>
+      <pins name="VCC" pinNo="3"/>
+      <pins name="GND" pinNo="4"/>
+      <pins name="PB6" pinNo="5">
+        <altNames>PCINT6</altNames>
+        <altNames>XTAL1</altNames>
+        <altNames>TOSC1</altNames>
+      </pins>
+      <pins name="PB7" pinNo="6">
+        <altNames>PCINT7</altNames>
+        <altNames>XTAL2</altNames>
+        <altNames>TOSC2</altNames>
+      </pins>
+      <pins name="PD5" pinNo="7">
+        <altNames>PCINT21</altNames>
+        <altNames>OC0B</altNames>
+        <altNames>T1</altNames>
+      </pins>
+      <pins name="PD6" pinNo="8">
+        <altNames>PCINT22</altNames>
+        <altNames>OC0A</altNames>
+        <altNames>AIN0</altNames>
+      </pins>
+      <pins name="PD7" pinNo="9">
+        <altNames>PCINT23</altNames>
+        <altNames>AIN1</altNames>
+      </pins>
+      <pins name="PB0" pinNo="10">
+        <altNames>PCINT0</altNames>
+        <altNames>CLKO</altNames>
+        <altNames>ICP1</altNames>
+      </pins>
+      <pins name="PB1" pinNo="11">
+        <altNames>PCINT1</altNames>
+        <altNames>OC1A</altNames>
+      </pins>
+      <pins name="PB2" pinNo="12">
+        <altNames>PCINT2</altNames>
+        <altNames>SS</altNames>
+        <altNames>OC1B</altNames>
+      </pins>
+      <pins name="PB3" pinNo="13">
+        <altNames>PCINT3</altNames>
+        <altNames>OC2A</altNames>
+        <altNames>MOSI</altNames>
+      </pins>
+      <pins name="PB4" pinNo="14">
+        <altNames>PCINT4</altNames>
+        <altNames>MISO</altNames>
+      </pins>
+      <pins name="PB5" pinNo="15">
+        <altNames>SCK</altNames>
+        <altNames>PCINT5</altNames>
+      </pins>
+      <pins name="AVCC" pinNo="16"/>
+      <pins name="AREF" pinNo="17"/>
+      <pins name="GND" pinNo="18"/>
+      <pins name="PC0" pinNo="19">
+        <altNames>ADC0</altNames>
+        <altNames>PCINT8</altNames>
+      </pins>
+      <pins name="PC1" pinNo="20">
+        <altNames>ADC1</altNames>
+        <altNames>PCINT9</altNames>
+      </pins>
+      <pins name="PC2" pinNo="21">
+        <altNames>ADC2</altNames>
+        <altNames>PCINT10</altNames>
+      </pins>
+      <pins name="PC3" pinNo="22">
+        <altNames>ADC3</altNames>
+        <altNames>PCINT11</altNames>
+      </pins>
+      <pins name="PC4" pinNo="23">
+        <altNames>ADC4</altNames>
+        <altNames>SDA</altNames>
+        <altNames>PCINT12</altNames>
+      </pins>
+      <pins name="PC5" pinNo="24">
+        <altNames>ADC5</altNames>
+        <altNames>SCL</altNames>
+        <altNames>PCINT13</altNames>
+      </pins>
+      <pins name="PC6" pinNo="25">
+        <altNames>RESET</altNames>
+        <altNames>PCINT14</altNames>
+      </pins>
+      <pins name="PD0" pinNo="26">
+        <altNames>RXD</altNames>
+        <altNames>PCINT16</altNames>
+      </pins>
+      <pins name="PD1" pinNo="27">
+        <altNames>TXD</altNames>
+        <altNames>PCINT17</altNames>
+      </pins>
+      <pins name="PD2" pinNo="28">
+        <altNames>INT0</altNames>
+        <altNames>PCINT18</altNames>
+      </pins>
+    </packages>
+    <pins name="ADC0" pkgPin="//@components.0/@packages.0/@pins.22"/>
+    <pins name="ADC1" pkgPin="//@components.0/@packages.0/@pins.23"/>
+    <pins name="ADC2" pkgPin="//@components.0/@packages.0/@pins.24"/>
+    <pins name="ADC3" pkgPin="//@components.0/@packages.0/@pins.25"/>
+    <pins name="ADC4" pkgPin="//@components.0/@packages.0/@pins.26"/>
+    <pins name="ADC5" pkgPin="//@components.0/@packages.0/@pins.27"/>
+    <pins name="ADC6" pkgPin="//@components.0/@packages.0/@pins.18"/>
+    <pins name="ADC7" pkgPin="//@components.0/@packages.0/@pins.21"/>
+    <pins name="AIN0" pkgPin="//@components.0/@packages.0/@pins.9"/>
+    <pins name="AIN1" pkgPin="//@components.0/@packages.0/@pins.10"/>
+    <pins name="AREF" pkgPin="//@components.0/@packages.0/@pins.19"/>
+    <pins name="AVCC" pkgPin="//@components.0/@packages.0/@pins.17"/>
+    <pins name="CLKO" pkgPin="//@components.0/@packages.0/@pins.11"/>
+    <pins name="GND" pkgPin="//@components.0/@packages.0/@pins.2"/>
+    <pins name="ICP1" pkgPin="//@components.0/@packages.0/@pins.11"/>
+    <pins name="INT0" pkgPin="//@components.0/@packages.0/@pins.31"/>
+    <pins name="INT1" pkgPin="//@components.0/@packages.0/@pins.0"/>
+    <pins name="MISO" pkgPin="//@components.0/@packages.0/@pins.15"/>
+    <pins name="MOSI" pkgPin="//@components.0/@packages.0/@pins.14"/>
+    <pins name="OC0A" pkgPin="//@components.0/@packages.0/@pins.9"/>
+    <pins name="OC0B" pkgPin="//@components.0/@packages.0/@pins.8"/>
+    <pins name="OC1A" pkgPin="//@components.0/@packages.0/@pins.12"/>
+    <pins name="OC1B" pkgPin="//@components.0/@packages.0/@pins.13"/>
+    <pins name="OC2A" pkgPin="//@components.0/@packages.0/@pins.14"/>
+    <pins name="OC2B" pkgPin="//@components.0/@packages.0/@pins.0"/>
+    <pins name="PB0" pkgPin="//@components.0/@packages.0/@pins.11"/>
+    <pins name="PB1" pkgPin="//@components.0/@packages.0/@pins.12"/>
+    <pins name="PB2" pkgPin="//@components.0/@packages.0/@pins.13"/>
+    <pins name="PB3" pkgPin="//@components.0/@packages.0/@pins.14" lines="//@connections.10"/>
+    <pins name="PB4" pkgPin="//@components.0/@packages.0/@pins.15" lines="//@connections.11"/>
+    <pins name="PB5" pkgPin="//@components.0/@packages.0/@pins.16" lines="//@connections.12"/>
+    <pins name="PB6" pkgPin="//@components.0/@packages.0/@pins.6" lines="//@connections.13"/>
+    <pins name="PB7" pkgPin="//@components.0/@packages.0/@pins.7"/>
+    <pins name="PC0" pkgPin="//@components.0/@packages.0/@pins.22"/>
+    <pins name="PC1" pkgPin="//@components.0/@packages.0/@pins.23"/>
+    <pins name="PC2" pkgPin="//@components.0/@packages.0/@pins.24"/>
+    <pins name="PC3" pkgPin="//@components.0/@packages.0/@pins.25"/>
+    <pins name="PC4" pkgPin="//@components.0/@packages.0/@pins.26" lines="//@connections.8"/>
+    <pins name="PC5" pkgPin="//@components.0/@packages.0/@pins.27" lines="//@connections.9"/>
+    <pins name="PC6" pkgPin="//@components.0/@packages.0/@pins.28"/>
+    <pins name="PCINT0" pkgPin="//@components.0/@packages.0/@pins.11"/>
+    <pins name="PCINT1" pkgPin="//@components.0/@packages.0/@pins.12"/>
+    <pins name="PCINT10" pkgPin="//@components.0/@packages.0/@pins.24"/>
+    <pins name="PCINT11" pkgPin="//@components.0/@packages.0/@pins.25"/>
+    <pins name="PCINT12" pkgPin="//@components.0/@packages.0/@pins.26"/>
+    <pins name="PCINT13" pkgPin="//@components.0/@packages.0/@pins.27"/>
+    <pins name="PCINT14" pkgPin="//@components.0/@packages.0/@pins.28"/>
+    <pins name="PCINT16" pkgPin="//@components.0/@packages.0/@pins.29"/>
+    <pins name="PCINT17" pkgPin="//@components.0/@packages.0/@pins.30"/>
+    <pins name="PCINT18" pkgPin="//@components.0/@packages.0/@pins.31"/>
+    <pins name="PCINT19" pkgPin="//@components.0/@packages.0/@pins.0"/>
+    <pins name="PCINT2" pkgPin="//@components.0/@packages.0/@pins.13"/>
+    <pins name="PCINT20" pkgPin="//@components.0/@packages.0/@pins.1"/>
+    <pins name="PCINT21" pkgPin="//@components.0/@packages.0/@pins.8"/>
+    <pins name="PCINT22" pkgPin="//@components.0/@packages.0/@pins.9"/>
+    <pins name="PCINT23" pkgPin="//@components.0/@packages.0/@pins.10"/>
+    <pins name="PCINT3" pkgPin="//@components.0/@packages.0/@pins.14"/>
+    <pins name="PCINT4" pkgPin="//@components.0/@packages.0/@pins.15"/>
+    <pins name="PCINT5" pkgPin="//@components.0/@packages.0/@pins.16"/>
+    <pins name="PCINT6" pkgPin="//@components.0/@packages.0/@pins.6"/>
+    <pins name="PCINT7" pkgPin="//@components.0/@packages.0/@pins.7"/>
+    <pins name="PCINT8" pkgPin="//@components.0/@packages.0/@pins.22"/>
+    <pins name="PCINT9" pkgPin="//@components.0/@packages.0/@pins.23"/>
+    <pins name="PD0" pkgPin="//@components.0/@packages.0/@pins.29"/>
+    <pins name="PD1" pkgPin="//@components.0/@packages.0/@pins.30"/>
+    <pins name="PD2" pkgPin="//@components.0/@packages.0/@pins.31"/>
+    <pins name="PD3" pkgPin="//@components.0/@packages.0/@pins.0"/>
+    <pins name="PD4" pkgPin="//@components.0/@packages.0/@pins.1"/>
+    <pins name="PD5" pkgPin="//@components.0/@packages.0/@pins.8"/>
+    <pins name="PD6" pkgPin="//@components.0/@packages.0/@pins.9"/>
+    <pins name="PD7" pkgPin="//@components.0/@packages.0/@pins.10"/>
+    <pins name="RESET" pkgPin="//@components.0/@packages.0/@pins.28"/>
+    <pins name="RXD" pkgPin="//@components.0/@packages.0/@pins.29"/>
+    <pins name="SCK" pkgPin="//@components.0/@packages.0/@pins.16"/>
+    <pins name="SCL" pkgPin="//@components.0/@packages.0/@pins.27"/>
+    <pins name="SDA" pkgPin="//@components.0/@packages.0/@pins.26"/>
+    <pins name="SS" pkgPin="//@components.0/@packages.0/@pins.13"/>
+    <pins name="T0" pkgPin="//@components.0/@packages.0/@pins.1"/>
+    <pins name="T1" pkgPin="//@components.0/@packages.0/@pins.8"/>
+    <pins name="TOSC1" pkgPin="//@components.0/@packages.0/@pins.6"/>
+    <pins name="TOSC2" pkgPin="//@components.0/@packages.0/@pins.7"/>
+    <pins name="TXD" pkgPin="//@components.0/@packages.0/@pins.30"/>
+    <pins name="VCC" pkgPin="//@components.0/@packages.0/@pins.3"/>
+    <pins name="XCK" pkgPin="//@components.0/@packages.0/@pins.1"/>
+    <pins name="XTAL1" pkgPin="//@components.0/@packages.0/@pins.6"/>
+    <pins name="XTAL2" pkgPin="//@components.0/@packages.0/@pins.7"/>
+    <ports name="i2c" connectedTo="//@connections.0" pins="//@components.0/@pins.75 //@components.0/@pins.74"/>
+    <ports name="spi" connectedTo="//@connections.1" pins="//@components.0/@pins.17 //@components.0/@pins.18 //@components.0/@pins.73 //@components.0/@pins.76"/>
+    <ports name="usart0" pins="//@components.0/@pins.83 //@components.0/@pins.81 //@components.0/@pins.72"/>
+    <ports name="portb" pins="//@components.0/@pins.25 //@components.0/@pins.26 //@components.0/@pins.27 //@components.0/@pins.28 //@components.0/@pins.29 //@components.0/@pins.30 //@components.0/@pins.31 //@components.0/@pins.32"/>
+    <ports name="portc" pins="//@components.0/@pins.33 //@components.0/@pins.34 //@components.0/@pins.35 //@components.0/@pins.36 //@components.0/@pins.37 //@components.0/@pins.38 //@components.0/@pins.39"/>
+    <ports name="portd" pins="//@components.0/@pins.63 //@components.0/@pins.64 //@components.0/@pins.65 //@components.0/@pins.66 //@components.0/@pins.67 //@components.0/@pins.68 //@components.0/@pins.69 //@components.0/@pins.70"/>
+    <ports name="adc" pins="//@components.0/@pins.0 //@components.0/@pins.1 //@components.0/@pins.2 //@components.0/@pins.3 //@components.0/@pins.4 //@components.0/@pins.5 //@components.0/@pins.6 //@components.0/@pins.7"/>
+  </components>
+  <components xsi:type="MARTE.MARTE_DesignModel.HRM.HwLogical.HwDevice:HwDevice" name="KXP84">
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="readRegister" method="//@components.1/@activities.0">
+      <ownedParameter type="//@datatypes.0" direction="return"/>
+    </operations>
+    <activities name="readRegister" specification="//@components.1/@operations.0">
+      <node xsi:type="uml:InputPin" name="address"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:Pin" name="result"/>
+      <node xsi:type="uml:CallOperationAction" name="i2c_write_byte" operation="//@protocols.2/@operations.2"/>
+      <node xsi:type="uml:CallOperationAction" name="i2c_write_byte" operation="//@protocols.2/@operations.2"/>
+      <node xsi:type="uml:CallOperationAction" name="i2c_read_byte" operation="//@protocols.2/@operations.1"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@7e00a490"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+      <node xsi:type="uml:OutputPin" name="byte"/>
+    </activities>
+    <packages packageType="P2050" name="P2050">
+      <pins name="GND" refpin="//@components.1/@pins.0" pinNo="1"/>
+      <pins name="Vdd" refpin="//@components.1/@pins.1" pinNo="2"/>
+      <pins name="MOT" refpin="//@components.1/@pins.2" pinNo="3"/>
+      <pins name="FF" refpin="//@components.1/@pins.3" pinNo="4"/>
+      <pins name="X" refpin="//@components.1/@pins.4" pinNo="5"/>
+      <pins name="Y" refpin="//@components.1/@pins.5" pinNo="6"/>
+      <pins name="Z" refpin="//@components.1/@pins.6" pinNo="7"/>
+      <pins name="Reset" refpin="//@components.1/@pins.7" pinNo="8"/>
+      <pins name="nCS" refpin="//@components.1/@pins.8" pinNo="9"/>
+      <pins name="ADDR0" refpin="//@components.1/@pins.9 //@components.1/@pins.10" wire="//@connections.2" pinNo="10">
+        <altNames>SDI</altNames>
+      </pins>
+      <pins name="SDA" refpin="//@components.1/@pins.11 //@components.1/@pins.12" pinNo="11">
+        <altNames>SDO</altNames>
+      </pins>
+      <pins name="SCL" refpin="//@components.1/@pins.13 //@components.1/@pins.14" wire="//@connections.3" pinNo="12">
+        <altNames>SCLK</altNames>
+      </pins>
+      <pins name="IOVdd" refpin="//@components.1/@pins.15" pinNo="13"/>
+      <pins name="DNC" refpin="//@components.1/@pins.16" pinNo="14"/>
+    </packages>
+    <pins name="GND" pkgPin="//@components.1/@packages.0/@pins.0"/>
+    <pins name="Vdd" pkgPin="//@components.1/@packages.0/@pins.1"/>
+    <pins name="MOT" pkgPin="//@components.1/@packages.0/@pins.2"/>
+    <pins name="FF" pkgPin="//@components.1/@packages.0/@pins.3"/>
+    <pins name="X" pkgPin="//@components.1/@packages.0/@pins.4"/>
+    <pins name="Y" pkgPin="//@components.1/@packages.0/@pins.5"/>
+    <pins name="Z" pkgPin="//@components.1/@packages.0/@pins.6"/>
+    <pins name="Reset" pkgPin="//@components.1/@packages.0/@pins.7"/>
+    <pins name="nCS" pkgPin="//@components.1/@packages.0/@pins.8"/>
+    <pins name="ADDR0" pkgPin="//@components.1/@packages.0/@pins.9" lines="//@connections.8"/>
+    <pins name="SDI" pkgPin="//@components.1/@packages.0/@pins.9"/>
+    <pins name="SDA" pkgPin="//@components.1/@packages.0/@pins.10"/>
+    <pins name="SDO" pkgPin="//@components.1/@packages.0/@pins.10"/>
+    <pins name="SCL" pkgPin="//@components.1/@packages.0/@pins.11" lines="//@connections.9"/>
+    <pins name="SCLK" pkgPin="//@components.1/@packages.0/@pins.11"/>
+    <pins name="IOVdd" pkgPin="//@components.1/@packages.0/@pins.12"/>
+    <pins name="DNC" pkgPin="//@components.1/@packages.0/@pins.13"/>
+    <registers name="XOUT_H" address="0x00"/>
+    <registers name="XOUT_L" address="0x01"/>
+    <registers name="YOUT_H" address="0x02"/>
+    <registers name="YOUT_L" address="0x03"/>
+    <registers name="ZOUT_H" address="0x04"/>
+    <registers name="ZOUT_L" address="0x05"/>
+    <registers name="FF_INT" address="0x06"/>
+    <registers name="FF_DELAY" address="0x07"/>
+    <registers name="MOT_INT" address="0x08"/>
+    <registers name="MOT_DELAY" address="0x09"/>
+    <registers name="CTRL_REGC" address="0x0A"/>
+    <registers name="CTRL_REGB" address="0x0B"/>
+    <registers name="CTRL_REGA" address="0x0C"/>
+    <registers name="R_XOUT_H" address="0x80"/>
+    <registers name="R_XOUT_L" address="0x81"/>
+    <registers name="R_YOUT_H" address="0x82"/>
+    <registers name="R_YOUT_L" address="0x83"/>
+    <registers name="R_YOUT_L" address="0x84"/>
+    <registers name="R_ZOUT_L" address="0x85"/>
+    <registers name="R_FF_INT" address="0x86"/>
+    <registers name="R_FF_DELAY" address="0x87"/>
+    <registers name="R_MOT_INT" address="0x88"/>
+    <registers name="R_MOT_DELAY" address="0x89"/>
+    <registers name="R_CTRL_REGC" address="0x8A"/>
+    <registers name="R_CTRL_REGB" address="0x8B"/>
+    <registers name="R_CTRL_REGA" address="0x8C"/>
+    <ports name="i2c" connectedTo="//@connections.0" pins="//@components.1/@pins.9 //@components.1/@pins.11 //@components.1/@pins.13"/>
+    <ports name="spi" pins="//@components.1/@pins.10 //@components.1/@pins.12 //@components.1/@pins.14 //@components.1/@pins.8"/>
+    <ports name="analog" pins="//@components.1/@pins.4 //@components.1/@pins.5 //@components.1/@pins.6"/>
+  </components>
+  <components xsi:type="MARTE.MARTE_DesignModel.HRM.HwLogical.HwDevice:HwDevice" name="AT25010B">
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="set_write_enable_latch" method="//@components.2/@activities.0">
+      <ownedParameter direction="return"/>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="reset_write_enable_latch" method="//@components.2/@activities.1">
+      <ownedParameter type="//@datatypes.2" direction="return"/>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="read_status_register" method="//@components.2/@activities.2">
+      <ownedParameter type="//@datatypes.0" direction="return"/>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="write_status_register" method="//@components.2/@activities.3">
+      <ownedParameter type="//@datatypes.2" direction="return"/>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="read" method="//@components.2/@activities.4">
+      <ownedParameter type="//@datatypes.0" direction="return"/>
+    </operations>
+    <operations xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwDeviceFunction:HwDeviceFunction" name="write" method="//@components.2/@activities.5">
+      <ownedParameter type="//@datatypes.2" direction="return"/>
+    </operations>
+    <activities name="set_write_enable_latch" specification="//@components.2/@operations.0">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities name="reset_write_enable_latch" specification="//@components.2/@operations.1">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities name="read_status_register" specification="//@components.2/@operations.2">
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:Pin" name="temp"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_read_byte" operation="//@protocols.0/@operations.2"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@1470e83a"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+      <node xsi:type="uml:OutputPin" name="byte"/>
+    </activities>
+    <activities name="write_status_register" specification="//@components.2/@operations.3">
+      <node xsi:type="uml:InputPin" name="status"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <activities name="read" specification="//@components.2/@operations.4">
+      <node xsi:type="uml:InputPin" name="address"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:Pin" name="temp"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_read_byte" operation="//@protocols.0/@operations.2"/>
+      <node xsi:type="uml:StructuredActivityNode" name="jp.ac.jaist.kslab.sb.marte.spec.specDsl.impl.DslReturnImpl@1fb66e87"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+      <node xsi:type="uml:OutputPin" name="byte"/>
+    </activities>
+    <activities name="write" specification="//@components.2/@operations.5">
+      <node xsi:type="uml:InputPin" name="address"/>
+      <node xsi:type="uml:InputPin" name="value"/>
+      <node xsi:type="uml:InitialNode"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:CallOperationAction" name="spi_write_byte" operation="//@protocols.0/@operations.3"/>
+      <node xsi:type="uml:ActivityFinalNode"/>
+    </activities>
+    <packages packageType="DIP" name="DIP">
+      <pins name="CS" refpin="//@components.2/@pins.0" wire="//@connections.7" pinNo="1"/>
+      <pins name="SO" refpin="//@components.2/@pins.1" wire="//@connections.5" pinNo="2"/>
+      <pins name="WP" refpin="//@components.2/@pins.2" pinNo="3"/>
+      <pins name="GND" pinNo="4"/>
+      <pins name="SI" refpin="//@components.2/@pins.3" wire="//@connections.4" pinNo="5"/>
+      <pins name="SCK" refpin="//@components.2/@pins.4" wire="//@connections.6" pinNo="6"/>
+      <pins name="HOLD" refpin="//@components.2/@pins.5" pinNo="7"/>
+      <pins name="VCC" pinNo="8"/>
+    </packages>
+    <pins name="CS" pkgPin="//@components.2/@packages.0/@pins.0" lines="//@connections.13"/>
+    <pins name="SO" pkgPin="//@components.2/@packages.0/@pins.1" lines="//@connections.11"/>
+    <pins name="WP" pkgPin="//@components.2/@packages.0/@pins.2"/>
+    <pins name="SI" pkgPin="//@components.2/@packages.0/@pins.4" lines="//@connections.10"/>
+    <pins name="SCK" pkgPin="//@components.2/@packages.0/@pins.5" lines="//@connections.12"/>
+    <pins name="HOLD" pkgPin="//@components.2/@packages.0/@pins.6"/>
+    <ports name="spi" connectedTo="//@connections.1" pins="//@components.2/@pins.1 //@components.2/@pins.3 //@components.2/@pins.4 //@components.2/@pins.0"/>
+  </components>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwLogical.HwCommunication:HwConnection" name="i2c" protocols="//@protocols.2"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwLogical.HwCommunication:HwConnection" name="spi" protocols="//@protocols.0"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPackage:HwWire" name="N1"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPackage:HwWire" name="N2"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPackage:HwWire" name="N3"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPackage:HwWire" name="N4"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPackage:HwWire" name="N5"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwPackage:HwWire" name="N6"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwIO:HwLine" name="N1"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwIO:HwLine" name="N2"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwIO:HwLine" name="N3"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwIO:HwLine" name="N4"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwIO:HwLine" name="N5"/>
+  <connections xsi:type="MARTE.MARTE_DesignModel.HRM.HwSpesification.HwIO:HwLine" name="N6"/>
+  <protocols name="spi">
+    <operations name="spi_initialize" isAbstract="true">
+      <ownedParameter direction="return"/>
+    </operations>
+    <operations name="spi_transfer" isAbstract="true">
+      <ownedParameter type="//@datatypes.0" direction="return"/>
+    </operations>
+    <operations name="spi_read_byte" isAbstract="true">
+      <ownedParameter type="//@datatypes.0" direction="return"/>
+    </operations>
+    <operations name="spi_write_byte" isAbstract="true">
+      <ownedParameter type="//@datatypes.2" direction="return"/>
+    </operations>
+    <operations name="spi_end" isAbstract="true">
+      <ownedParameter type="//@datatypes.2" direction="return"/>
+    </operations>
+  </protocols>
+  <protocols name="gpio">
+    <operations name="initialize" isAbstract="true">
+      <ownedParameter direction="return"/>
+    </operations>
+    <operations name="read_pin" isAbstract="true">
+      <ownedParameter type="//@datatypes.1" direction="return"/>
+    </operations>
+    <operations name="write_pin" isAbstract="true">
+      <ownedParameter type="//@datatypes.2" direction="return"/>
+    </operations>
+  </protocols>
+  <protocols name="i2c">
+    <operations name="i2c_initializie" isAbstract="true">
+      <ownedParameter direction="return"/>
+    </operations>
+    <operations name="i2c_read_byte" isAbstract="true">
+      <ownedParameter type="//@datatypes.0" direction="return"/>
+    </operations>
+    <operations name="i2c_write_byte" isAbstract="true">
+      <ownedParameter type="//@datatypes.2" direction="return"/>
+    </operations>
+  </protocols>
+  <datatypes name="byte"/>
+  <datatypes name="int"/>
+  <datatypes name="void"/>
+</MARTE.MARTE_DesignModel.HRM.HwDiagram:HwHRMDiagram>

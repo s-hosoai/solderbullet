@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/jp.ac.jaist.kslab.sb.marte/src"
+    modelPluginID="jp.ac.jaist.kslab.sb.marte" modelName="MARTE_Library" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>MARTE_Library.ecore</foreignModel>
+  <genPackages prefix="MARTE_Library" disposableProviderFactory="true" ecorePackage="MARTE_Library.ecore#/">
+    <nestedGenPackages prefix="MeasurementUnits" basePackage="MARTE_Library" disposableProviderFactory="true"
+        ecorePackage="MARTE_Library.ecore#//MeasurementUnits">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MeasurementUnits/TimeUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/TimeUnitKind/s"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/TimeUnitKind/tick"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/TimeUnitKind/ms"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/TimeUnitKind/us"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/TimeUnitKind/min"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/TimeUnitKind/hrs"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/TimeUnitKind/day"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MeasurementUnits/PowerUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/PowerUnitKind/W"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/PowerUnitKind/mW"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/PowerUnitKind/KW"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MeasurementUnits/FrequencyUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/FrequencyUnitKind/Hz"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/FrequencyUnitKind/KHz"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/FrequencyUnitKind/MHz"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/FrequencyUnitKind/GHz"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/FrequencyUnitKind/rpm"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MeasurementUnits/DataSizeUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/DataSizeUnitKind/bit"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/DataSizeUnitKind/Byte"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/DataSizeUnitKind/KB"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/DataSizeUnitKind/MB"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/DataSizeUnitKind/GB"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MeasurementUnits/DataTxRateUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/DataTxRateUnitKind/b_per_s"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/DataTxRateUnitKind/Kb_per_s"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/DataTxRateUnitKind/Mb_per_s"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MeasurementUnits/EnergyUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/EnergyUnitKind/J"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/EnergyUnitKind/KJ"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/EnergyUnitKind/Wh"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/EnergyUnitKind/KWh"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/EnergyUnitKind/mWh"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MeasurementUnits/LengthUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/LengthUnitKind/m"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/LengthUnitKind/cm"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/LengthUnitKind/mm"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MeasurementUnits/AreaUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/AreaUnitKind/mm2"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/AreaUnitKind/um2"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MeasurementUnits/WeightUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/WeightUnitKind/g"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/WeightUnitKind/mg"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MeasurementUnits/WeightUnitKind/kg"/>
+      </genEnums>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="GRM_BasicTypes" basePackage="MARTE_Library" disposableProviderFactory="true"
+        ecorePackage="MARTE_Library.ecore#//GRM_BasicTypes">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//GRM_BasicTypes/SchedPolicyKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/SchedPolicyKind/EarliestDeadlineFirst"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/SchedPolicyKind/FIFO"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/SchedPolicyKind/FixedPriority"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/SchedPolicyKind/LeastLaxityFirst"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/SchedPolicyKind/RoundRobin"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/SchedPolicyKind/TimeTableDriven"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/SchedPolicyKind/Undef"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/SchedPolicyKind/Other"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//GRM_BasicTypes/ProtectProtocolKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/ProtectProtocolKind/FIFO"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/ProtectProtocolKind/NoPreemption"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/ProtectProtocolKind/PriorityCeiling"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/ProtectProtocolKind/PriorityInheritance"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/ProtectProtocolKind/StackBased"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/ProtectProtocolKind/Undef"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/ProtectProtocolKind/Other"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerKind/Sporadic"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerKind/Deferrable"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerKind/Undef"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerKind/Other"/>
+      </genEnums>
+      <genClasses ecoreClass="MARTE_Library.ecore#//GRM_BasicTypes/EDF_Parameters">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/EDF_Parameters/deadline"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//GRM_BasicTypes/SchedParameters">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/SchedParameters/edf"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/SchedParameters/fp"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/SchedParameters/pooling"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/SchedParameters/server"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//GRM_BasicTypes/SchedParameters/tableEntry"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//GRM_BasicTypes/FixedPriorityParameters">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/FixedPriorityParameters/priority"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//GRM_BasicTypes/PoolingParameters">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/PoolingParameters/period"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/PoolingParameters/overhead"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerParameters">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerParameters/kind"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerParameters/backgroundPriority"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerParameters/initialBudget"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerParameters/replenishPeriod"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//GRM_BasicTypes/PeriodicServerParameters/maxPendingReplenish"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="BasicNFP_Types" basePackage="MARTE_Library" disposableProviderFactory="true"
+        ecorePackage="MARTE_Library.ecore#//BasicNFP_Types">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//BasicNFP_Types/SourceKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/SourceKind/est"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/SourceKind/meas"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/SourceKind/calc"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/SourceKind/req"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//BasicNFP_Types/DirectionKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/DirectionKind/incr"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/DirectionKind/decr"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind/max"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind/min"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind/mean"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind/range"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind/percent"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind/distrib"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind/determ"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind/other"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//BasicNFP_Types/StatisticalQualifierKind/variance"/>
+      </genEnums>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/expr"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/source"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/statQ"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/dir"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/mode"/>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/bernoulli">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/bernoulli/prob"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/binomial">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/binomial/prob"/>
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/binomial/trials"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/exp">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/exp/mean"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/gamma">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/gamma/k"/>
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/gamma/mean"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/normal">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/normal/mean"/>
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/normal/standDev"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/poisson">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/poisson/mean"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/uniform">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/uniform/min"/>
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/uniform/max"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/gamma.1">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/gamma.1/k"/>
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/gamma.1/mean"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/geometric">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/geometric/p"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/triangular">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/triangular/min"/>
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/triangular/max"/>
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/triangular/mode"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/logarithmic">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//BasicNFP_Types/NFP_CommonType/logarithmic/theta"/>
+        </genOperations>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Frequency">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Frequency/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Frequency/precision"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Real">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Real/value"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Natural">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Natural/value"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Boolean">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Boolean/value"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_String">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_String/value"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Integer">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Integer/value"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_DateTime">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_DateTime/value"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_DataTxRate">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_DataTxRate/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_DataTxRate/precision"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Power">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Power/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Power/precision"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_DataSize">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_DataSize/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_DataSize/precision"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Energy">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Energy/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Energy/precision"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Length">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Length/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Length/precision"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Area">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Area/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Area/precision"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/ArrivalPattern">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/ArrivalPattern/periodic"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/ArrivalPattern/aperiodic"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/ArrivalPattern/burst"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/ArrivalPattern/irregular"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/ArrivalPattern/closed"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/ArrivalPattern/sporadic"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/ArrivalPattern/open"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/PeriodicPattern">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/PeriodicPattern/period"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/PeriodicPattern/jitter"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/PeriodicPattern/phase"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/PeriodicPattern/occurrences"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/AperiodicPattern">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/AperiodicPattern/distribution"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/BurstPattern">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/BurstPattern/minInterarrival"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/BurstPattern/maxInterarrival"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/BurstPattern/minEventInterval"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/BurstPattern/maxEventInterval"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/BurstPattern/burstSize"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/IrregularPattern">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/IrregularPattern/phase"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/IrregularPattern/interarrivals"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/ClosedPattern">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/ClosedPattern/population"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/ClosedPattern/extDelay"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/SporadicPattern">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/SporadicPattern/minInterarrival"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/SporadicPattern/maxInterarrival"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/SporadicPattern/jitter"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/OpenPattern">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/OpenPattern/interArrivalTime"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//BasicNFP_Types/OpenPattern/arrivalRate"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/OpenPattern/arrivalProcess"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Percentage">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Percentage/unit"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Price">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Price/unit"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Weight">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Weight/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Weight/precision"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//BasicNFP_Types/NFP_Duration">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Duration/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Duration/clock"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Duration/precision"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Duration/worst"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//BasicNFP_Types/NFP_Duration/best"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="MARTE_DataTypes" basePackage="MARTE_Library" disposableProviderFactory="true"
+        ecorePackage="MARTE_Library.ecore#//MARTE_DataTypes">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//MARTE_DataTypes/TransmModeKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MARTE_DataTypes/TransmModeKind/simplex"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MARTE_DataTypes/TransmModeKind/halfDuplex"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//MARTE_DataTypes/TransmModeKind/fullDuplex"/>
+      </genEnums>
+      <genDataTypes ecoreDataType="MARTE_Library.ecore#//MARTE_DataTypes/VSL_Expression"/>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/IntegerVector">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//MARTE_DataTypes/IntegerVector/vectorElem"/>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/IntegerVector/at">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/IntegerVector/at/i"/>
+        </genOperations>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/IntegerMatrix">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//MARTE_DataTypes/IntegerMatrix/matrixElem"/>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/IntegerMatrix/at">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/IntegerMatrix/at/i"/>
+        </genOperations>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/IntegerInterval">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//MARTE_DataTypes/IntegerInterval/bound"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType">
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/eq">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/eq/u"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/lt">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/lt/u"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/gt">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/gt/u"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/le">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/le/u"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/ge">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/ge/u"/>
+        </genOperations>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/ne">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/UtilityType/ne/u"/>
+        </genOperations>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/Array">
+        <genTypeParameters ecoreTypeParameter="MARTE_Library.ecore#//MARTE_DataTypes/Array/T"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//MARTE_DataTypes/Array/vectorElement"/>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/Array/at">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/Array/at/i"/>
+        </genOperations>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/Interval">
+        <genTypeParameters ecoreTypeParameter="MARTE_Library.ecore#//MARTE_DataTypes/Interval/T1"/>
+        <genTypeParameters ecoreTypeParameter="MARTE_Library.ecore#//MARTE_DataTypes/Interval/T2"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//MARTE_DataTypes/Interval/bound"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/Realnterval">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//MARTE_DataTypes/Realnterval/bound"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/NFP_FrequencyInterval">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//MARTE_DataTypes/NFP_FrequencyInterval/bound"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/NFP_NaturalInterval">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//MARTE_DataTypes/NFP_NaturalInterval/bound"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/RealVector">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//MARTE_DataTypes/RealVector/vectorElem"/>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/RealVector/at">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/RealVector/at/i"/>
+        </genOperations>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//MARTE_DataTypes/RealMatrix">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//MARTE_DataTypes/RealMatrix/matrixElem"/>
+        <genOperations ecoreOperation="MARTE_Library.ecore#//MARTE_DataTypes/RealMatrix/at">
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/RealMatrix/at/i"/>
+          <genParameters ecoreParameter="MARTE_Library.ecore#//MARTE_DataTypes/RealMatrix/at/p"/>
+        </genOperations>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="TimeTypesLibrary" basePackage="MARTE_Library" disposableProviderFactory="true"
+        ecorePackage="MARTE_Library.ecore#//TimeTypesLibrary">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//TimeTypesLibrary/TimeNatureKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeNatureKind/discrete"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeNatureKind/dense"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//TimeTypesLibrary/TimeInterpretationKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeInterpretationKind/duration"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeInterpretationKind/instant"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//TimeTypesLibrary/EventKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/EventKind/start"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/EventKind/finish"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/EventKind/send"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/EventKind/receive"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/EventKind/consume"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/TAI"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/UT0"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/UT1"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/UTC"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/Local"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/TT"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/TBD"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/TCG"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/TCB"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/Sidereal"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeTypesLibrary/TimeStandardKind/GPS"/>
+      </genEnums>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="TimeLibrary" basePackage="MARTE_Library" disposableProviderFactory="true"
+        ecorePackage="MARTE_Library.ecore#//TimeLibrary">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//TimeLibrary/TUK"/>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//TimeLibrary/TimeUnitKind">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeLibrary/TimeUnitKind/s"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeLibrary/TimeUnitKind/ms"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeLibrary/TimeUnitKind/us"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeLibrary/TimeUnitKind/ns"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeLibrary/TimeUnitKind/min"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeLibrary/TimeUnitKind/hrs"/>
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeLibrary/TimeUnitKind/day"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="MARTE_Library.ecore#//TimeLibrary/LogicalTimeUnit">
+        <genEnumLiterals ecoreEnumLiteral="MARTE_Library.ecore#//TimeLibrary/LogicalTimeUnit/tick"/>
+      </genEnums>
+      <genDataTypes ecoreDataType="MARTE_Library.ecore#//TimeLibrary/ClockedValueSpecification"/>
+      <genClasses ecoreClass="MARTE_Library.ecore#//TimeLibrary/TimedValueType">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//TimeLibrary/TimedValueType/unit"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//TimeLibrary/TimedValueType/value"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//TimeLibrary/TimedValueType/expr"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//TimeLibrary/TimedValueType/onClock"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//TimeLibrary/IdealClock">
+        <genOperations ecoreOperation="MARTE_Library.ecore#//TimeLibrary/IdealClock/currentTime"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="RS_Library" basePackage="MARTE_Library" disposableProviderFactory="true"
+        ecorePackage="MARTE_Library.ecore#//RS_Library">
+      <genClasses ecoreClass="MARTE_Library.ecore#//RS_Library/TilerSpecification">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//RS_Library/TilerSpecification/origin"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//RS_Library/TilerSpecification/paving"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MARTE_Library.ecore#//RS_Library/TilerSpecification/fitting"/>
+      </genClasses>
+      <genClasses ecoreClass="MARTE_Library.ecore#//RS_Library/ShapeSpecification">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MARTE_Library.ecore#//RS_Library/ShapeSpecification/size"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="MARTE_PrimitivesTypes" basePackage="MARTE_Library"
+        disposableProviderFactory="true" ecorePackage="MARTE_Library.ecore#//MARTE_PrimitivesTypes">
+      <genDataTypes ecoreDataType="MARTE_Library.ecore#//MARTE_PrimitivesTypes/Integer"/>
+      <genDataTypes ecoreDataType="MARTE_Library.ecore#//MARTE_PrimitivesTypes/Boolean"/>
+      <genDataTypes ecoreDataType="MARTE_Library.ecore#//MARTE_PrimitivesTypes/UnlimitedNatural"/>
+      <genDataTypes ecoreDataType="MARTE_Library.ecore#//MARTE_PrimitivesTypes/String"/>
+      <genDataTypes ecoreDataType="MARTE_Library.ecore#//MARTE_PrimitivesTypes/DateTime"/>
+      <genDataTypes ecoreDataType="MARTE_Library.ecore#//MARTE_PrimitivesTypes/Real"/>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

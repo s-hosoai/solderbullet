@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="blockdiagram.presentation.BlockdiagramModelWizardID"
+            name="%_UI_BlockdiagramModelWizard_label"
+            class="blockdiagram.presentation.BlockdiagramModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/BlockdiagramModelFile.gif">
+         <description>%_UI_BlockdiagramModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="blockdiagram.presentation.BlockdiagramEditorID"
+            name="%_UI_BlockdiagramEditor_label"
+            icon="icons/full/obj16/BlockdiagramModelFile.gif"
+            extensions="blockdiagram"
+            class="blockdiagram.presentation.BlockdiagramEditor"
+            contributorClass="blockdiagram.presentation.BlockdiagramActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

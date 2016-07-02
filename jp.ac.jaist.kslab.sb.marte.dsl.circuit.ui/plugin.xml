@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+
+    <extension
+            point="org.eclipse.ui.editors">
+        <editor
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.XtextEditor"
+            contributorClass="org.eclipse.ui.editors.text.TextEditorActionContributor"
+            default="true"
+            extensions="circuit"
+            id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl"
+            name="CircuitDsl Editor">
+        </editor>
+    </extension>
+    <extension
+        point="org.eclipse.ui.handlers">
+        <handler
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.hyperlinking.OpenDeclarationHandler"
+            commandId="org.eclipse.xtext.ui.editor.hyperlinking.OpenDeclaration">
+            <activeWhen>
+                <reference
+                    definitionId="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.Editor.opened">
+                </reference>
+            </activeWhen>
+        </handler>
+        <handler
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.handler.ValidateActionHandler"
+            commandId="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.validate">
+         <activeWhen>
+            <reference
+                    definitionId="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.Editor.opened">
+            </reference>
+         </activeWhen>
+      </handler>
+    </extension>
+    <extension point="org.eclipse.core.expressions.definitions">
+        <definition id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.Editor.opened">
+            <and>
+                <reference definitionId="isActiveEditorAnInstanceOfXtextEditor"/>
+                <with variable="activeEditor">
+                    <test property="org.eclipse.xtext.ui.editor.XtextEditor.languageName" 
+                        value="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl" 
+                        forcePluginActivation="true"/>
+                </with>        
+            </and>
+        </definition>
+    </extension>
+    <extension
+            point="org.eclipse.ui.preferencePages">
+        <page
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.preferences.LanguageRootPreferencePage"
+            id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl"
+            name="CircuitDsl">
+            <keywordReference id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.keyword_CircuitDsl"/>
+        </page>
+        <page
+            category="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl"
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.syntaxcoloring.SyntaxColoringPreferencePage"
+            id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.coloring"
+            name="Syntax Coloring">
+            <keywordReference id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.keyword_CircuitDsl"/>
+        </page>
+        <page
+            category="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl"
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.templates.XtextTemplatePreferencePage"
+            id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.templates"
+            name="Templates">
+            <keywordReference id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.keyword_CircuitDsl"/>
+        </page>
+    </extension>
+    <extension
+        point="org.eclipse.ui.keywords">
+        <keyword
+            id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.keyword_CircuitDsl"
+            label="CircuitDsl"/>
+    </extension>
+    <extension
+         point="org.eclipse.ui.commands">
+      <command
+            description="Trigger expensive validation"
+            id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.validate"
+            name="Validate">
+      </command>
+    </extension>
+    <extension point="org.eclipse.ui.menus">
+        <menuContribution
+            locationURI="popup:#TextEditorContext?after=group.edit">
+             <command
+                 commandId="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.validate"
+                 style="push"
+                 tooltip="Trigger expensive validation">
+            <visibleWhen checkEnabled="false">
+                <reference
+                    definitionId="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.Editor.opened">
+                </reference>
+            </visibleWhen>
+         </command>  
+         </menuContribution>
+    </extension>
+    <extension point="org.eclipse.ui.menus">
+		<menuContribution locationURI="popup:#TextEditorContext?endof=group.find">
+			<command commandId="org.eclipse.xtext.ui.editor.FindReferences">
+				<visibleWhen checkEnabled="false">
+                	<reference definitionId="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.Editor.opened">
+                	</reference>
+            	</visibleWhen>
+			</command>
+		</menuContribution>
+	</extension>
+	<extension point="org.eclipse.ui.handlers">
+	    <handler
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.findrefs.FindReferencesHandler"
+            commandId="org.eclipse.xtext.ui.editor.FindReferences">
+            <activeWhen>
+                <reference
+                    definitionId="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.Editor.opened">
+                </reference>
+            </activeWhen>
+        </handler>
+    </extension>   
+
+<!-- adding resource factories -->
+
+	<extension
+		point="org.eclipse.emf.ecore.extension_parser">
+		<parser
+			class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.resource.IResourceFactory"
+			type="circuit">
+		</parser>
+	</extension>
+	<extension point="org.eclipse.xtext.extension_resourceServiceProvider">
+        <resourceServiceProvider
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.resource.IResourceUIServiceProvider"
+            uriExtension="circuit">
+        </resourceServiceProvider>
+    </extension>
+
+
+
+	<!-- Quick Outline -->
+	<extension
+		point="org.eclipse.ui.handlers">
+		<handler 
+			class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.outline.quickoutline.ShowQuickOutlineActionHandler"
+			commandId="org.eclipse.xtext.ui.editor.outline.QuickOutline">
+			<activeWhen>
+				<reference
+					definitionId="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.Editor.opened">
+				</reference>
+			</activeWhen>
+		</handler>
+	</extension>
+	<extension
+		point="org.eclipse.ui.commands">
+		<command
+			description="Open the quick outline."
+			id="org.eclipse.xtext.ui.editor.outline.QuickOutline"
+			name="Quick Outline">
+		</command>
+	</extension>
+	<extension point="org.eclipse.ui.menus">
+		<menuContribution
+			locationURI="popup:#TextEditorContext?after=group.open">
+			<command commandId="org.eclipse.xtext.ui.editor.outline.QuickOutline"
+				style="push"
+				tooltip="Open Quick Outline">
+				<visibleWhen checkEnabled="false">
+					<reference definitionId="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.Editor.opened"/>
+				</visibleWhen>
+			</command>
+		</menuContribution>
+	</extension>
+
+  <extension point="org.eclipse.compare.contentViewers">
+    <viewer id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.compare.contentViewers"
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.compare.InjectableViewerCreator"
+            extensions="circuit">
+    </viewer>
+  </extension>
+  <extension point="org.eclipse.compare.contentMergeViewers">
+    <viewer id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.compare.contentMergeViewers"
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.compare.InjectableViewerCreator"
+            extensions="circuit" label="CircuitDsl Compare">
+     </viewer>
+  </extension>
+  <extension point="org.eclipse.ui.editors.documentProviders">
+    <provider id="jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDsl.editors.documentProviders"
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.model.XtextDocumentProvider"
+            extensions="circuit">
+    </provider>
+  </extension>
+   <!-- quickfix marker resolution generator -->
+   <extension
+         point="org.eclipse.ui.ide.markerResolution">
+      <markerResolutionGenerator
+            class="jp.ac.jaist.kslab.sb.marte.dsl.circuit.ui.CircuitDslExecutableExtensionFactory:org.eclipse.xtext.ui.editor.quickfix.MarkerResolutionGenerator">
+      </markerResolutionGenerator>
+   </extension>
+
+</plugin>

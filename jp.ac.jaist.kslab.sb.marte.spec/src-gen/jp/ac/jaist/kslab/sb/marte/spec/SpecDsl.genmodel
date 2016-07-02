@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/jp.ac.jaist.kslab.sb.marte.spec/src-gen"
+    editDirectory="/jp.ac.jaist.kslab.sb.marte.spec.edit/src" editorDirectory="/jp.ac.jaist.kslab.sb.marte.spec.editor/src"
+    modelPluginID="jp.ac.jaist.kslab.sb.marte.spec" forceOverwrite="true" modelName="SpecDsl"
+    updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="jp.ac.jaist.kslab.sb.marte.spec.edit"
+    editorPluginID="jp.ac.jaist.kslab.sb.marte.spec.editor">
+  <genPackages prefix="SpecDsl" basePackage="jp.ac.jaist.kslab.sb.marte.spec" disposableProviderFactory="true"
+      ecorePackage="SpecDsl.ecore#/">
+    <genClasses ecoreClass="SpecDsl.ecore#//Model">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//Model/name"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//Datasheet">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//Datasheet/revision"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//Datasheet/imports"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//Datasheet/components"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//Import">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//Import/importedNamespace"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslProtocol">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslProtocol/operations"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslOperation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslOperation/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslOperation/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslOperation/paramType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslOperation/paramname"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslComponent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslComponent/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslComponent/pins"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslComponent/ports"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslComponent/packages"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslMcu">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslMcu/peripherals"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslMcu/sfr"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslDevice">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslDevice/functions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslDevice/registers"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslPort">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslPort/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslPort/pins"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslPin">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslPin/name"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslRegister">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslRegister/address"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslRegister/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslRegister/bits"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslBit">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslBit/name"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslPackage">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslPackage/names"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslPackage/pins"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslPackagePin">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslPackagePin/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslPackagePin/pinNo"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslPackagePin/altNames"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslPeripheral">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslPeripheral/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslPeripheral/compliant"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslPeripheral/operations"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslOperationImpl">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslOperationImpl/rettype"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslOperationImpl/implOperation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslOperationImpl/params"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslOperationImpl/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslPeripheralExpression"/>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslRegisterRead">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslRegisterRead/ref"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslRegisterRead/var"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslRegisterWrite">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslRegisterWrite/ref"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslRegisterWrite/var"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslValue"/>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslRefVariable">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslRefVariable/ref"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslFunction">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslFunction/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslFunction/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslFunction/params"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslFunction/expressions"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslTypedParameter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslTypedParameter/paramType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslTypedParameter/name"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslCallFunction">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslCallFunction/variables"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslCallFunction/function"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslCallFunction/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslDefineVariable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslDefineVariable/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslDefineVariable/val"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslReturn">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslReturn/val"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//DslType/type"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslVariable">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//DslVariable/var"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//DslExpression"/>
+    <genClasses ecoreClass="SpecDsl.ecore#//XBinaryExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XBinaryExpression/left"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//XBinaryExpression/op"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XBinaryExpression/right"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XBlockExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XBlockExpression/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XPrimaryExpression"/>
+    <genClasses ecoreClass="SpecDsl.ecore#//XConditionalExpression"/>
+    <genClasses ecoreClass="SpecDsl.ecore#//XConditionalBlockExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XConditionalBlockExpression/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XConditionalUnaryExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XConditionalUnaryExpression/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XBoolExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XBoolExpression/left"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SpecDsl.ecore#//XBoolExpression/op"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XBoolExpression/right"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XBoolType"/>
+    <genClasses ecoreClass="SpecDsl.ecore#//XBitAccess">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XBitAccess/bit"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XRegisterAccess">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XRegisterAccess/reg"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XVariableAccess">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XVariableAccess/var"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XParamVariableAccess">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XParamVariableAccess/var"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XIfExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XIfExpression/if"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XIfExpression/then"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XIfExpression/else"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XWhileExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XWhileExpression/predicate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XWhileExpression/body"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XForExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XForExpression/init"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XForExpression/predicate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XForExpression/loop"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XForExpression/body"/>
+    </genClasses>
+    <genClasses ecoreClass="SpecDsl.ecore#//XDoWhileExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XDoWhileExpression/body"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SpecDsl.ecore#//XDoWhileExpression/predicate"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

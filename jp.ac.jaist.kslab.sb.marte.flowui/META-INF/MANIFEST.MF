@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FlowUI
+Bundle-SymbolicName: jp.ac.jaist.kslab.sb.marte.flowui; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: jp.ac.jaist.kslab.sb.marte.flowui.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.core.resources;bundle-version="3.7.100",
+ org.eclipse.ui.ide;bundle-version="3.7.0",
+ jp.ac.jaist.kslab.sb.marte.merge;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -1,0 +1,23 @@
+net {
+	GND,N1,N2,VCC
+}
+
+component ATMEGA328 {
+	P3:GND,
+	P4:VCC,
+	P5:GND,
+	P6:VCC,
+	P21:GND,
+	P27:N1,
+	P28:N2
+}
+
+component KXP84 {
+	P1:GND,
+	P2:VCC,
+	P8:GND,
+	P9:GND,
+	P11:N1,
+	P12:N2,
+	P13:VCC
+}

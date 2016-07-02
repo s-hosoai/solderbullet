@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Yp_AEINKEeCIH8Kj2lf4sQ">
+  <packagedElement xmi:type="uml:Package" xmi:id="_yIn9oINKEeCIH8Kj2lf4sQ">
+    <packagedElement xmi:type="uml:Class" xmi:id="_zZ-30INKEeCIH8Kj2lf4sQ">
+      <ownedAttribute xmi:id="_i5sqcINMEeCIH8Kj2lf4sQ" name="prop"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_0gnIsINKEeCIH8Kj2lf4sQ" name="act" specification="_1l580INKEeCIH8Kj2lf4sQ">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_OitYoINLEeCIH8Kj2lf4sQ"/>
+        <node xmi:type="uml:InitialNode" xmi:id="_0C_jIINLEeCIH8Kj2lf4sQ" outgoing="_OYwV8INMEeCIH8Kj2lf4sQ"/>
+        <node xmi:type="uml:AddVariableValueAction" xmi:id="_eo1HoINLEeCIH8Kj2lf4sQ" incoming="_OYwV8INMEeCIH8Kj2lf4sQ">
+          <value xmi:id="_WRwSgINMEeCIH8Kj2lf4sQ"/>
+        </node>
+        <node xmi:type="uml:ReadVariableAction" xmi:id="_gRu_IINLEeCIH8Kj2lf4sQ">
+          <result xmi:id="_g-vPEINLEeCIH8Kj2lf4sQ" type="_DybF4INLEeCIH8Kj2lf4sQ"/>
+        </node>
+        <node xmi:type="uml:OutputPin" xmi:id="_k4oRwINLEeCIH8Kj2lf4sQ"/>
+        <node xmi:type="uml:Pin" xmi:id="__hxTkINLEeCIH8Kj2lf4sQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_OYwV8INMEeCIH8Kj2lf4sQ" source="_0C_jIINLEeCIH8Kj2lf4sQ" target="_eo1HoINLEeCIH8Kj2lf4sQ"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_Y2kYoINMEeCIH8Kj2lf4sQ"/>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_1l580INKEeCIH8Kj2lf4sQ" name="ope" method="_0gnIsINKEeCIH8Kj2lf4sQ">
+        <ownedParameter xmi:id="_9MkzQINKEeCIH8Kj2lf4sQ" name="param" type="_DybF4INLEeCIH8Kj2lf4sQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DybF4INLEeCIH8Kj2lf4sQ" name="ParamType"/>
+  </packagedElement>
+</uml:Model>

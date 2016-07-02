@@ -1,0 +1,8 @@
+#Sun Jan 22 02:40:08 JST 2012
+eclipse.preferences.version=1
+gmf_dashboard/domainGenerationModel=platform\:/resource/jp.ac.jaist.kslab.sb.marte.dsl.block/model/BlockDiagram.genmodel
+gmf_dashboard/domainModel=platform\:/resource/jp.ac.jaist.kslab.sb.marte.dsl.block/model/BlockDiagram.ecore
+gmf_dashboard/generationModel=platform\:/resource/jp.ac.jaist.kslab.sb.marte.dsl.block/model/BlockDiagram.gmfgen
+gmf_dashboard/graphicalDefinitionModel=platform\:/resource/jp.ac.jaist.kslab.sb.marte.dsl.block/model/BlockDiagram.gmfgraph
+gmf_dashboard/mappingModel=platform\:/resource/jp.ac.jaist.kslab.sb.marte.dsl.block/model/BlockDiagram.gmfmap
+gmf_dashboard/toolingDefinitionModel=platform\:/resource/jp.ac.jaist.kslab.sb.marte.dsl.block/model/BlockDiagram.gmftool

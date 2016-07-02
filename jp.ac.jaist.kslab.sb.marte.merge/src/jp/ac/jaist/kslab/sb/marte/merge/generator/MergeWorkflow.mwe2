@@ -1,0 +1,87 @@
+module jp.ac.jaist.kslab.sb.marte.merge.generator.MergeWorkflow
+
+import org.eclipse.emf.mwe.utils.*
+
+// public vars
+var modelPath //= "model"
+var circuitFile //= "model/acc_logger.circuit"
+var blockFile //= "model/motionlogger.blockdiagram"
+var hardwareModelUri //= "genmodel/hardware.xmi"
+
+// inner vars
+var specExtension ="spec"
+var dslSlot = "dslSlot"
+var specModel = "specModel"
+var circuitModel = "circuitModel"
+var blockModel = "blockModel"
+var hardwareModel = "hardwareModel"
+
+
+
+Workflow {
+	bean = StandaloneSetup {
+		scanClassPath = true
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwProtocol.HwProtocolPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwDatasheet.HwDatasheetPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwLogical.HwDevice.HwDevicePackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwDiagram.HwDiagramPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwRegister.HwRegisterPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwPeripheral.HwPeripheralPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.SRM.SW_Brokering.SW_BrokeringPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwLogical.HwComputing.HwComputingPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwPackage.HwPackagePackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwDeviceFunction.HwDeviceFunctionPackage"
+		registerGeneratedEPackage = "blockdiagram.BlockdiagramPackage"
+	}
+	
+	// read spec DSLs
+	component =  org.eclipse.xtext.mwe.Reader{
+		path = modelPath
+		uriFilter = org.eclipse.xtext.mwe.NameBasedFilter {
+			extension = specExtension
+		}
+		
+		register = jp.ac.jaist.kslab.sb.marte.spec.SpecDslStandaloneSetup{}
+		loadResource = {
+			slot = dslSlot
+		}
+	}
+	
+	// Transform DSL model to SpecModel
+	component = DSLTransformer {
+		input = dslSlot
+		output = specModel
+		modelSlot = ""
+	}
+	
+	// Read circuit DSL
+	component = org.eclipse.xtext.mwe.Reader {
+		path = modelPath
+		uriFilter = org.eclipse.xtext.mwe.NameBasedFilter{
+			regularExpression = circuitFile
+		}
+		
+		register = jp.ac.jaist.kslab.sb.marte.dsl.circuit.CircuitDslStandaloneSetup{}
+		loadResource = {
+			slot = circuitModel
+		}
+	}
+	
+	// Read Block ecore model
+	component = Reader {
+		uri = blockFile
+		modelSlot = blockModel
+	}
+	
+	component = HardwareModelMerger {
+		spec = specModel
+		circuit = circuitModel
+		block = blockModel
+		output = hardwareModel
+	}
+	
+	component = HardwareModelWriter {
+		uri = hardwareModelUri
+		modelSlot = hardwareModel
+	}
+}

@@ -1,0 +1,7 @@
+# Tracing options for the jp.ac.jaist.kslab.sb.marte.dsl.block.diagram plug-in
+
+# Common issues
+jp.ac.jaist.kslab.sb.marte.dsl.block.diagram/debug=false
+
+# Visual IDs
+jp.ac.jaist.kslab.sb.marte.dsl.block.diagram/debug/visualID=false

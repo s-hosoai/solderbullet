@@ -1,0 +1,43 @@
+module jp.ac.jaist.kslab.sb.marte.merge.generator.CodeGenerateWorkflow
+
+import org.eclipse.emf.mwe.utils.*
+
+var umlUri
+var srcUri
+
+var umlModel = "uml"
+var resource = "resource"
+Workflow {
+	bean = StandaloneSetup {
+		scanClassPath = true
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwProtocol.HwProtocolPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwDatasheet.HwDatasheetPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwLogical.HwDevice.HwDevicePackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwDiagram.HwDiagramPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwRegister.HwRegisterPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwPeripheral.HwPeripheralPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.SRM.SW_Brokering.SW_BrokeringPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwLogical.HwComputing.HwComputingPackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwPackage.HwPackagePackage"
+		registerGeneratedEPackage = "MARTE.MARTE_DesignModel.HRM.HwSpecification.HwDeviceFunction.HwDeviceFunctionPackage"
+		registerGeneratedEPackage = "blockdiagram.BlockdiagramPackage"
+	}
+	
+	component = Reader{
+		uri = umlUri
+		modelSlot = umlModel
+	}
+	
+	component = ModelToResource {
+		in = umlModel
+		out = resource
+	}
+	
+	component = org.eclipse.xtext.generator.GeneratorComponent{
+		slot=resource
+		register=jp.ac.jaist.kslab.sb.marte.merge.MergeDslStandaloneSetup{}
+		outlet={
+			path=srcUri
+		}
+	}
+}
